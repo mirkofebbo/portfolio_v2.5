@@ -1,0 +1,49 @@
+{
+  "id": 5,
+  "title": "TRANSPARENCY",
+  "date": "20/12/2021",
+  "status": "Completed",
+  "keywords": [
+    "goldsmiths",
+    "research",
+    "webscraping",
+    "python",
+    "data_sync",
+    "data_visualisation"
+  ],
+  "videoUrl": "https://www.youtube.com/embed/dLlAX2MgIMM",
+  "mediaUrl": [
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/0.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/1.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/10.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/2.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/3.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/4.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/5.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/6.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/7.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/8.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2021/TRANSPARENCY/9.jpg"
+  ],
+  "imageDescription": [
+    ""
+  ],
+  "subTitle": [
+    "Introduction",
+    "Methodology",
+    "Data",
+    "Visualisation",
+    "Findings",
+    "Conclusion"
+  ],
+  "oneLiner": "In an era of information revolution, this project visualizes the vast influence of CEOs or 'hyper-humans' on the environment, workers, and economy.",
+  "description": "",
+  "paragraph": [
+    "In an era where information revolution is shifting the status quo, this project aims to visualize the influence and impact of CEOs or 'hyper-humans, on the environment, workers, and economy. By offering a visual representation of their interests and actions, the project empowers the public to make informed decisions and counteract aggressive economic policies like neoliberalism.",
+    "The project employs web scraping and data visualization techniques to explore the sphere of influence of a CEO. Using Python for backend and P5.js for frontend, the project gathers open-source data and presents it in a visually engaging manner.",
+    "Data is collected through web scraping using Googlesearch and Goose libraries. The information is categorized into environmental, social, and economic impacts. Sentiment analysis is performed using NLTK and Vader to interpret the text as positive, negative, or neutral.",
+    "The visualization aims to find a balance between abstraction and literal representation. It draws inspiration from the Coxcomb diagram and uses principles like grouping, contrast, isolation, and visual metaphors to create an intuitive understanding of the hyper-human's impact.",
+    "A survey was conducted to gauge people's awareness and interest in the project. The results indicated a general awareness of corporate activity but also revealed challenges in making the visualization easily understandable. The survey also highlighted the public's expectation that such information should be freely accessible.",
+    "The project offers a glimpse into the immense influence of hyper-humans, unraveling the complexity of their corporate connections. While it scratches the surface of a vast and intricate subject, it serves as a tool for public empowerment and awareness. Future exploration could delve deeper into the web of corporate connections, uncovering more nuanced insights into the actions and impacts of these influential individuals."
+  ]
+}
