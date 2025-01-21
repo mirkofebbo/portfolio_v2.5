@@ -10,7 +10,7 @@ import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
 
 
-const Project = ({ metadata }) => {
+const ProjectPage = ({ metadata }) => {
     const { ProjectSelection, ProjectIndex } = useParams();
     const projectUrl = metadata[ProjectSelection].list[ProjectIndex];
     const [data, setData] = useState(null);
@@ -56,4 +56,4 @@ const Project = ({ metadata }) => {
     );
 }
 
-export default Project;
+export default ProjectPage;

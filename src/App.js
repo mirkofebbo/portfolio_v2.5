@@ -9,7 +9,7 @@ import metadata from './metadata.json';
 
 import Home from './pages/Home';
 import HeroPage from './pages/HeroPage';
-import Project from './pages/Project';
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/:ProjectSelection" element={<HeroPage metadata={metadata}/>} />
-          <Route path="/:ProjectSelection/:ProjectIndex" element={<Project metadata={metadata}/>} />
+          <Route path="/:ProjectSelection/:ProjectIndex" element={<ProjectPage metadata={metadata}/>} />
         </Routes>
       </BrowserRouter>
 
