@@ -1,0 +1,51 @@
+{
+  "id": 4,
+  "title": "NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN",
+  "date": "09/11/2024",
+  "status": "Completed",
+  "keywords": [
+    "art",
+    "performance",
+    "collaboration",
+    "ai",
+    "python",
+    "neuroscience",
+    "audio-visual",
+    "react"
+  ],
+  "videoUrl": null,
+  "link": "https://neurolive.info/Research",
+  "mediaUrl": [
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/0.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/1.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/10.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/8.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/2.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/3.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/4.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/5.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/6.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/9.jpg"
+  ],
+  "imageDescription": [],
+  "subTitle": [
+    "Introduction",
+    "New Requirements",
+    "Tech Stack",
+    "A Learning Experience",
+    "What Really Worked",
+    "Conclusion",
+    "Credits"
+  ],
+  "oneLiner": "Latest Update on the synchronisation software, utilising my latest experience as a full stack dev. Handling multiple servers and communication protocol.",
+  "description": "Readings of what was never written is an upcoming performance by Matthias Sperling, created in collaboration with Temitope Ajose, Ben Ash, Iris Yi Po Chan, and Katye Coe.",
+  "paragraph": [
+    "Dance, science, and science fiction come together in this fourth and final performance from the NEUROLIVE project. While the performers approach dancing as a process of ‘taking a reading’, intuitively interpreting their moment-to-moment embodied experience, this year, the NEUROLIVE team also stages an AI that augments this process. The AI is conceived as a system that reads multiple live data streams from the performers, the audience, and the room to generate spoken interpretations of the emergent dance, like an interpretive oracle.",
+    "Building on last year's work, we aimed to have all the data streamed via LSL so that we could have the data already synchronised. Thus we added a stream for the live multiple audio channel, the live video timer, as well as an attempt at transforming the data received from the pupil labs into an LSL stream.",
+    "We had a multitude of computers for this particular show. One connected to the studio PA system to stream the live audio channel during the performance, as well as running the text-to-speech AI model and the ZED camera. Another was dedicated to the video recording of two Insta360 cameras and streaming the recording time via LSL every second. Another computer was running the main script to pick up the live stream of all 23 Eye tracking devices and transfer them into an LSL stream, as well as LABrecorder and a script to send messages both via LSL and API to the eyetracking, and finally run the frontend. To close it all, we had a laptop with the frontend website running so as to not impact the servers running the very sensitive data.",
+    "While I worked on this code base for years now and updated the software so many times, this time I overused ChatGPT for the Eye tracking streaming to LSL part of the project. This was a huge mistake as the code written was somehow crashing Lab Recorder, thus giving us no data to work with. We diagnosed that it was probably due to Python threads not closing properly and opening more and more threads as the device disconnected and reconnected again. Then the biggest problem: I could not properly explain my code. Was it also partly because I had been having very little sleep and a long day? Probably… but outsourcing my code to the AI was the biggest mistake. One that I am not going to make any time soon. So before the performance, while I thought I had found a solution and I could not crash the Lab recorder again, I still decided not to deploy this part of the code. Good thing I only needed to comment on one line of code to do so.",
+    "Having the frontend made on a website meant that my colleague could now follow live the eye tracking as they were visible on the network, as well as give valuable information on the device itself like disconnection, eye tracker not connected, etc.",
+    "In the end, it all went smoothly. We still have to analyse and sadly synchronise the eye tracking devices since I had to quarantine this part of the project. I feel like I have gained a stronger understanding of software architecture on a multi-server level. And since the trauma of being lost for words when explaining my code to people I look up to, I only use AI to explain snippets of code or provide minimal help when I cannot find the answer online.",
+    "Created by Matthias Sperling in collaboration with Temitope Ajose, Ben Ash, Iris Yi Po Chan and Katye Coe. | Live Sound Design: Joel Cahen | AI Creation: Jamie Forth and Mirko Febbo | Costume Design: Annie Pender | Lighting Design: Marty Langthorne | Technician: Mike Picknett | Filmmaking: Ana de Matos"
+  ]
+}

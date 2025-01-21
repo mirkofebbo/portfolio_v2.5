@@ -1,0 +1,75 @@
+{
+  "title": "NEUROLIVE_SNAKESKIN_IN_THE_WILD",
+  "date": "09/11/2023",
+  "status": "Completed",
+  "type": "PROJECT",
+  "keywords": [
+    "art",
+    "performance",
+    "collaboration",
+    "python",
+    "neuroscience",
+    "audio-visual",
+    "react"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/0.jpg",
+  "oneLiner": "Latest update on the synchronization software, utilizing my latest experience as a full-stack dev, handling multiple servers and communication protocols.",
+  "videoUrl": null,
+  "description": "Readings of what was never written is an upcoming performance by Matthias Sperling, created in collaboration with Temitope Ajose, Ben Ash, Iris Yi Po Chan, and Katye Coe.",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/0.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/1.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/10.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/8.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/2.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/3.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/4.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/5.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/6.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/9.jpg"
+  ],
+  "section": [
+    {
+      "subtitle": "Introduction",
+      "text": "Dance, science, and science fiction come together in this fourth and final performance from the NEUROLIVE project. While the performers approach dancing as a process of ‘taking a reading’, intuitively interpreting their moment-to-moment embodied experience, this year, the NEUROLIVE team also stages an AI that augments this process. The AI is conceived as a system that reads multiple live data streams from the performers, the audience, and the room to generate spoken interpretations of the emergent dance, like an interpretive oracle.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/0.jpg",
+      "url": "https://www.youtube.com/watch?v=LtErLH08EDE&t=2s"
+    },
+    {
+      "subtitle": "New Requirements",
+      "text": "Building on last year's work, we aimed to have all the data streamed via LSL so that we could have the data already synchronized. Thus, we added a stream for the live multiple audio channels, the live video timer, as well as an attempt at transforming the data received from the pupil labs into an LSL stream.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/1.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Tech Stack",
+      "text": "We had a multitude of computers for this particular show. One connected to the studio PA system to stream the live audio channel during the performance, as well as running the text-to-speech AI model and the ZED camera. Another was dedicated to the video recording of two Insta360 cameras and streaming the recording time via LSL every second. Another computer was running the main script to pick up the live stream of all 23 eye-tracking devices and transfer them into an LSL stream, as well as LABrecorder and a script to send messages both via LSL and API to the eye-tracking. Finally, a laptop ran the frontend website to avoid impacting the servers running sensitive data.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/10.JPG",
+      "url": ""
+    },
+    {
+      "subtitle": "A Learning Experience",
+      "text": "While I worked on this codebase for years and updated the software many times, this time I overused ChatGPT for the eye-tracking streaming to LSL part of the project. This was a huge mistake as the code written somehow crashed Lab Recorder, giving us no data to work with. Diagnosing the issue revealed that Python threads were not closing properly, creating an overload as devices disconnected and reconnected. This taught me to use AI only for minimal help and to avoid outsourcing critical code development.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/8.JPG",
+      "url": ""
+    },
+    {
+      "subtitle": "What Really Worked",
+      "text": "Having the frontend made on a website meant that my colleague could now follow live eye tracking as it was visible on the network. The frontend also provided valuable device information, such as disconnection notifications and device status updates, which greatly enhanced the workflow.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/9.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Conclusion",
+      "text": "In the end, it all went smoothly. We still need to analyze and synchronize the eye-tracking devices, as I had to quarantine that part of the project. However, this experience has strengthened my understanding of multi-server software architecture and reinforced the importance of carefully reviewing and owning my code. It’s a valuable lesson I will carry forward in future projects.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/2.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Credits",
+      "text": "Created by Matthias Sperling in collaboration with Temitope Ajose, Ben Ash, Iris Yi Po Chan, and Katye Coe. | Live Sound Design: Joel Cahen | AI Creation: Jamie Forth and Mirko Febbo | Costume Design: Annie Pender | Lighting Design: Marty Langthorne | Technician: Mike Picknett | Filmmaking: Ana de Matos",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/3.JPG",
+      "url": ""
+    }
+  ]
+}

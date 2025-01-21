@@ -19,22 +19,30 @@ const white = '#FFFFFF';
 const theme = createTheme({
     palette: {
         mode: 'dark',
+
+        primary: {
+            main: DarkSienna,
+        },
     },
 
     typography: {
         fontFamily: 'Roboto, monospace',
 
+        h5: {
+            color: OrangePeel,
+        },
         body1: {
             fontSize: '22px',
         },
     },
     components: {
+
         MuiButton: {
             styleOverrides: {
                 root: {
                     variants: [
                         {
-                            props: { variant: 'navbar', color: 'primary' },
+                            props: { variant: 'navbar' },
                             style: {
                                 color: 'white',
                                 '&:hover': {
@@ -42,9 +50,23 @@ const theme = createTheme({
                                     color: black,
                                 },
                                 // border: `1px solid white`,
-                                margin: '0 5%',
+                                height: '100%',
                             },
                         },
+                        {
+                            props: { variant: 'keywords' },
+                            style: {
+                                color: white,
+                                // backgroundColor: OrangePeel,
+                                border: `1px solid ${OrangePeel}`,
+                                '&:hover': {
+                                    border: `1px solid ${orange}`,
+                                    backgroundColor: BurntSienna,
+                                    color: black,
+                                },
+                                margin: '5px',
+                            },
+                        }
                     ],
                 },
             },

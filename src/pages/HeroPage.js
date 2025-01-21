@@ -5,20 +5,24 @@ import Grid from '@mui/material/Grid2';
 import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
 import ProjectCard from '../components/ProjectCard';
 
-const HeroPage = (metadata) => {
+const HeroPage = ({ metadata }) => {
     const { ProjectSelection } = useParams(null);
-    const data = metadata.metadata[ProjectSelection];
+    const data = metadata[ProjectSelection];
 
     const [projectDataList, setProjectDataList] = useState([]);
     const [loading, setLoading] = useState(true);
+
     const { loadProjectJson } = useLoadProjectJson();
+    
+    console.log("ProjectSelection", ProjectSelection);
+    const projectType = (ProjectSelection === "job") ? "job" : "projects";
 
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);
             const loadedData = await Promise.all(
                 data.list.map(async (project) => {
-                    const result = await loadProjectJson(project);
+                    const result = await loadProjectJson(projectType, project);
                     return result;
                 })
             );
@@ -32,21 +36,23 @@ const HeroPage = (metadata) => {
 
     if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
     if (!projectDataList.length || !ProjectSelection) return <Box><Typography variant="h1">Error: Project not found</Typography></Box>;
-
     const projectList = projectDataList.map((project, index) => {
+        console.log("project", project);
         return (
-            <Grid size={{ xs: 12, sm: 4 }}>
-                <ProjectCard key={index} data={projectDataList[index]} />
+            <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center" alignItems="center">
+                {ProjectSelection === "job" ?
+                    <ProjectCard key={index} data={project} projectPageUrl={`/${ProjectSelection}/${index}`} />
+                    :
+                    <ProjectCard key={index} data={project} projectPageUrl={`/${ProjectSelection}/${index}`} />
+                }
             </Grid>
         );
     });
 
     return (
-        <Box>
-            <Grid container spacing={1}>
-                {projectList}
-            </Grid>
-        </Box>
+        <Grid container spacing={1} justifyItems={"right"}>
+            {projectList}
+        </Grid>
     );
 };
 

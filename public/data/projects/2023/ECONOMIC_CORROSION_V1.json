@@ -1,16 +1,19 @@
 {
-  "id": 0,
   "title": "ECONOMIC_CORROSION_V1",
   "date": "01/09/2023",
   "status": "Ongoing",
+  "type": "ART",
   "keywords": [
     "data_visualisation",
     "economic_data",
     "physical_computing",
     "abstract"
   ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/0.jpg",
+  "oneLiner": "A mechanical ballet where motors and valves dance to the rhythm of income, house prices, and living costs.",
   "videoUrl": "",
-  "mediaUrl": [
+  "description": "'ECONOMIC_CORROSION' transforms 37 years of economic data into a mechanical ballet, where motors and valves dance to the rhythm of income, house prices, and living costs, creating a mesmerizing visual narrative.",
+  "mediaGallery": [
     "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/0.jpg",
     "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/1.jpg",
     "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/10.jpg",
@@ -31,26 +34,36 @@
     "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/G05_0_4.jpg",
     "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/timelapse_demo.mov"
   ],
-  "imageDescription": [
-    "Close-up on the metal plate as it is being rusted",
-    "Photo by: Phoebe Kris ",
-    "Photo by: Phoebe Kris ",
-    "Photo by: Phoebe Kris "
-  ],
-  "subTitle": [
-    "Introduction",
-    "Process and Development",
-    "Technology Used",
-    "Theory",
-    "Conclusion"
-  ],
-  "oneLiner": "A mechanical ballet where motors and valves dance to the rhythm of income, house prices, and living costs.",
-  "description": "'ECONOMIC_CORROSION' transforms 37 years of economic data into a mechanical ballet, where motors and valves dance to the rhythm of income, house prices, and living costs, creating a mesmerizing visual narrative.",
-  "paragraph": [
-    "In a world where data drives decisions, 'ECONOMIC_CORROSION' stands as an artistic rendition of numeric truths. It's not just a statistical compilation; it's a visual, mechanical exploration that brings to life 37 years of economic fluctuations. Through the precise synchronization of motors and valves, this artwork embodies the heartbeat of UK economy, reflecting the intertwining of income, house prices, and the cost of living.",
-    "The creation of this unique piece required meticulous planning, interpretation, and artistic finesse. Historical data was translated into a dynamic performance, each number finding its rhythm and pace. The process involved defining parameters for motor speed and valve activation to mirror the economic trends of each year. As the sculpture dances through time, its movements capture the economic nuances, telling a story that goes beyond mere digits and graphs.",
-    "The technological backbone of this artwork consists of three motors controlled by an Arduino, representing different data sets. Using real data from 1986 to 2022, the motors' speed is manipulated to reflect the corresponding values, creating a visual representation of the economic landscape. The unique integration of mechanical engineering with programming ensures that every turn, every whirl of the motors is a carefully calculated step in this numeric dance.",
-    "The theoretical underpinning of 'ECONOMIC_CORROSION' lies in the intersection of art, economics, and technology. By converting hard data into movement and rhythm, the piece aims to present a more tactile and emotive perspective on statistical figures that often remain abstract to the general populace. It challenges the viewer to perceive the fluctuations in the economy as a living, breathing entity, reflecting both the cyclical nature of financial trends and the inherent dynamism of a system constantly in flux. This artwork serves not only as a representation of data but as a commentary on how we engage with and interpret information in the modern world, questioning our connection to the figures that shape our lives.",
-    "'ECONOMIC_CORROSION' is more than an art piece; it's a timeless ode to our collective economic journey. By marrying data with mechanical design, it serves as a reminder of how numbers shape our world and influence our lives. It's a celebration of human ingenuity, a tribute to our resilience and adaptability. As the gears continue to turn and the valves open and close, the dance goes on, mirroring life's constant ebb and flow. This artwork stands as an eloquent symbol of how creativity can breathe life into the mundane, transforming numbers into an experience to be felt and appreciated."
+  "section": [
+    {
+      "subtitle": "Introduction",
+      "text": "In a world where data drives decisions, 'ECONOMIC_CORROSION' stands as an artistic rendition of numeric truths. It's not just a statistical compilation; it's a visual, mechanical exploration that brings to life 37 years of economic fluctuations. Through the precise synchronization of motors and valves, this artwork embodies the heartbeat of UK economy, reflecting the intertwining of income, house prices, and the cost of living.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/0.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Process and Development",
+      "text": "The creation of this unique piece required meticulous planning, interpretation, and artistic finesse. Historical data was translated into a dynamic performance, each number finding its rhythm and pace. The process involved defining parameters for motor speed and valve activation to mirror the economic trends of each year. As the sculpture dances through time, its movements capture the economic nuances, telling a story that goes beyond mere digits and graphs.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/1.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Technology Used",
+      "text": "The technological backbone of this artwork consists of three motors controlled by an Arduino, representing different data sets. Using real data from 1986 to 2022, the motors' speed is manipulated to reflect the corresponding values, creating a visual representation of the economic landscape. The unique integration of mechanical engineering with programming ensures that every turn, every whirl of the motors is a carefully calculated step in this numeric dance.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/10.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Theory",
+      "text": "The theoretical underpinning of 'ECONOMIC_CORROSION' lies in the intersection of art, economics, and technology. By converting hard data into movement and rhythm, the piece aims to present a more tactile and emotive perspective on statistical figures that often remain abstract to the general populace. It challenges the viewer to perceive the fluctuations in the economy as a living, breathing entity, reflecting both the cyclical nature of financial trends and the inherent dynamism of a system constantly in flux. This artwork serves not only as a representation of data but as a commentary on how we engage with and interpret information in the modern world, questioning our connection to the figures that shape our lives.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/11.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Conclusion",
+      "text": "'ECONOMIC_CORROSION' is more than an art piece; it's a timeless ode to our collective economic journey. By marrying data with mechanical design, it serves as a reminder of how numbers shape our world and influence our lives. It's a celebration of human ingenuity, a tribute to our resilience and adaptability. As the gears continue to turn and the valves open and close, the dance goes on, mirroring life's constant ebb and flow. This artwork stands as an eloquent symbol of how creativity can breathe life into the mundane, transforming numbers into an experience to be felt and appreciated.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/CORROSION/2.jpg",
+      "url": ""
+    }
   ]
 }

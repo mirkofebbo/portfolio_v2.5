@@ -9,6 +9,12 @@
             "2023/FAST_FAMILIAR_FIRST_DAY.json"
         ]
     },
+    "job": {
+        "hidden": false,
+        "list": [
+            "job/neurolive.json"
+        ]
+    },
     "archive": {
         "hidden": false,
         "list": [

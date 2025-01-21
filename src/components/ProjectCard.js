@@ -1,16 +1,14 @@
 import React from 'react';
 import { Box, Typography, Button, Card, CardContent, CardMedia, CardActions } from '@mui/material';
+import { Link } from 'react-router-dom';
 
-const ProjectCard = (data) => {
-    console.log("data   ", data);
-
-    data = data.data;
+const ProjectCard = ({ data, projectPageUrl }) => {
 
     return (
-        <Card sx={{ maxWidth: 400, margin: 2 }}>
+        <Card sx={{ maxWidth: 400 }}>
             <CardMedia
                 sx={{ height: 140 }}
-                image= {data.mediaUrl[0]}
+                image={data.heroImage}
                 title="green iguana"
             />
             <CardContent>
@@ -22,7 +20,12 @@ const ProjectCard = (data) => {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button
+                    size="small"
+                    component={Link}
+                    to={projectPageUrl}>
+                    Learn More
+                    </Button>
             </CardActions>
         </Card>
     );

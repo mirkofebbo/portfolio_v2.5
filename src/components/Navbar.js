@@ -15,6 +15,7 @@ const Navbar = (metadata) => {
     projectType.push(
       <Button
         key={index}
+        edge="start"
         variant="navbar"
         sx={{ flexGrow: 1 }}
         component={Link}

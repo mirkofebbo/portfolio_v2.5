@@ -5,9 +5,16 @@
             "2019/MAXIMILIEN_ROBESPIERRE.json",
             "2021/TRANSPARENCY.json",
             "2022/MECHANICUS.json",
-            "2023/NEUROLIVE_HSWBA.json",
+            "2022/NEUROLIVE_HSWBA.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json",
-            "2023/NESTA_STRATEGY_ROOM.json"
+            "2023/NESTA_STRATEGY_ROOM.json",
+            "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json"
+        ]
+    },
+    "job": {
+        "hidden": false,
+        "list": [
+            "neurolive.json"
         ]
     },
     "archive": {
@@ -16,14 +23,14 @@
             "2019/MAXIMILIEN_ROBESPIERRE.json",
             "2021/TRANSPARENCY.json",
             "2022/MECHANICUS.json",
-            "2023/NEUROLIVE_HSWBA.json",
+            "2022/NEUROLIVE_HSWBA.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json"
         ]
     },
     "coding": {
         "hidden": true,
         "list": [
-            "2023/NEUROLIVE_HSWBA.json",
+            "2022/NEUROLIVE_HSWBA.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json"
         ]
     }

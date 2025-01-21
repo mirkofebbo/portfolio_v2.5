@@ -4,8 +4,8 @@ export function useLoadProjectJson() {
     const [projectData, setProjectData] = useState(null);
     const [error, setError] = useState(null);
 
-    const loadProjectJson = async (LocalProjectPath) => {
-        const projectPath = `/data/projects/${LocalProjectPath}`;
+    const loadProjectJson = async (projectType, LocalProjectPath) => {
+        const projectPath = `/data/${projectType}/${LocalProjectPath}`;
         console.log("LocalProjectPath", projectPath);
 
         try {
