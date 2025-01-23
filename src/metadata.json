@@ -1,6 +1,7 @@
 {
     "project": {
         "hidden": false,
+        "type": "default",
         "list": [
             "2019/MAXIMILIEN_ROBESPIERRE.json",
             "2021/TRANSPARENCY.json",
@@ -13,12 +14,14 @@
     },
     "job": {
         "hidden": false,
+        "type": "roles",
         "list": [
-            "neurolive.json"
+            "job/neurolive.json"
         ]
     },
     "archive": {
         "hidden": false,
+        "type": "default",
         "list": [
             "2019/MAXIMILIEN_ROBESPIERRE.json",
             "2021/TRANSPARENCY.json",
@@ -29,6 +32,7 @@
     },
     "coding": {
         "hidden": true,
+        "type": "default",
         "list": [
             "2022/NEUROLIVE_HSWBA.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json"

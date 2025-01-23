@@ -31,7 +31,7 @@
         {
             "subtitle": "Performance 2: Software Developer",
             "text": "A unique 16-hour show over two days with a new performer every 15 minutes. Participants could join or leave at any time.",
-            "media": "",
+            "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/1.png",
             "url": "",
             "responsibilities": [
                 "Developed Python-based software to manage and synchronize data:",
@@ -50,7 +50,7 @@
         },
         {
             "subtitle": "Performance 3: Software Optimization and Advanced Synchronization",
-            "media": "",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/NEUROLIVE_SNAKESKIN_IN_THE_WILD/4.jpg",
             "url": "",
             "responsibilities": [
                 "Conducted a smaller pre-performance focused solely on eye tracking to optimize threading issues in the software.",
@@ -64,7 +64,7 @@
         },
         {
             "subtitle": "Performance 4: Pushing LSL Streaming Limits",
-            "media": "",
+            "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/10.JPG",
             "url": "",
             "responsibilities": [
                 "Designed and implemented a multi-PC setup to maximize system performance.",

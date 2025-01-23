@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Box, Typography, Divider } from "@mui/material";
-import Grid from '@mui/material/Grid2';
-
 
 import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
@@ -25,7 +23,7 @@ const ProjectPage = ({ metadata }) => {
                 return response.json();
             })
             .then((data) => {
-                console.log("data", data);
+                // console.log("data", data);
                 setData(data);
             })
             .catch((error) => {
@@ -34,7 +32,7 @@ const ProjectPage = ({ metadata }) => {
             });
     }, [projectPath]);
 
-    console.log(data);
+
     if (data === null) {
         return (
             <Box>
@@ -42,18 +40,38 @@ const ProjectPage = ({ metadata }) => {
             </Box>
         );
     }
+    else if (ProjectSelection === "job") {
+        return (
+            <Box flexDirection="column" >
+                <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
+                <Paragraph sections={data.section} />
 
-    return (
-        <Box flexDirection="column" >
-            <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
-            { data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
-            <Paragraph sections={data.section}/>
+            </Box>
+        );
+    }
+    else if (ProjectSelection === "project") {
+        return (
+            <Box flexDirection="column" >
+                <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
+                {data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
+                <Paragraph sections={data.section} />
+                <MediaGrid mediaList={data.mediaGallery} />
+                <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
+            </Box >
+        );
+    }
+    else if (ProjectSelection === "archive") {
+        return (
+            <Box flexDirection="column" >
+                <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
+                {data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
+                <Paragraph sections={data.section} />
+                <MediaGrid mediaList={data.mediaGallery} />
+                <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
+            </Box >
+        );
+    }
 
-            <MediaGrid mediaList={data.mediaGallery} />
-
-            <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
-        </Box >
-    );
 }
 
 export default ProjectPage;
