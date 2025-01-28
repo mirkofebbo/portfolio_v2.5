@@ -12,8 +12,7 @@ export default function NestedList({ responsibilities }) {
                                 <Typography
                                     key={nestedIdx}
                                     align="left"
-                                    variant="body2"
-                                    color="text.secondary"
+                                    variant="body3"
                                 >
                                     • {nestedItem}
                                 </Typography>
@@ -27,7 +26,6 @@ export default function NestedList({ responsibilities }) {
                             key={idx}
                             align="left"
                             variant="body2"
-                            color="text.secondary"
                         >
                             - {responsibility}
                         </Typography>

@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material";
+import { colors, createTheme } from "@mui/material";
 
 const orange = '#ff5722';
 const black = '#000000';
@@ -7,7 +7,7 @@ const DarkSienna = '#C68642';
 const SandyBrown = '#E76F51';
 const OrangePeel = '#FF9F1C';
 const HunyadiYellow = '#FFBF69';
-
+const OrangeGrey = '#d9d1ca';
 const PersionGreen = '#2A9D8F';
 const Charcoal = '#264653';
 const LitghtSeaGreen = '#CBF3F0';
@@ -31,9 +31,18 @@ const theme = createTheme({
         h5: {
             color: OrangePeel,
         },
-        body1: {
+        body3: {
+            color: OrangeGrey,
+            fontSize: '20px',
+        },
+        body2: {
+            color: OrangeGrey,
             fontSize: '22px',
         },
+        body1: {
+            color: OrangeGrey,
+            fontSize: '24px',
+        }
     },
     components: {
 

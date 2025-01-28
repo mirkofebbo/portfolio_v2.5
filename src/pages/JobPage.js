@@ -7,25 +7,22 @@ import Paragraph from "../components/Paragraph";
 import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
 import JobCard from "../components/JobCard";
-const ProjectPage = ({ metadata }) => {
-    const { role, JobName, ProjectIndex } = useParams();
+
+const JobPage = ({ metadata }) => {
+    const { JobName } = useParams();
     const [data, setData] = useState(null);
 
-    console.log("ProjectPage", role, JobName, ProjectIndex);
-    let projectUrl = "";
-    if (role === "project") {
-        projectUrl = metadata[role].list[ProjectIndex];
-    } else {
-        for (let i = 0; i < metadata[role].list.length; i++) {
-            if (metadata[role].list[i].title === JobName) {
-                projectUrl = metadata[role].list[i].url;
-                break;
-            }
+    let projectUrl = ""
+    for (let i = 0; i < metadata["job"].list.length; i++) {
+        if (metadata["job"].list[i].title === JobName) {
+            projectUrl = metadata["job"].list[i].url;
+            break;
         }
     }
 
     const projectPath = `/data/projects/${projectUrl}`;
 
+    console.log("JobPage", JobName, projectUrl, projectPath);
     useEffect(() => {
         fetch(projectPath)
             .then((response) => {
@@ -35,7 +32,6 @@ const ProjectPage = ({ metadata }) => {
                 return response.json();
             })
             .then((data) => {
-                // console.log("data", data);
                 setData(data);
             })
             .catch((error) => {
@@ -58,11 +54,9 @@ const ProjectPage = ({ metadata }) => {
             <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
             {data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
             <Paragraph sections={data.section} />
-            <MediaGrid mediaList={data.mediaGallery} />
-            <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
-        </Box >
+        </Box>
     );
 
 }
 
-export default ProjectPage;
+export default JobPage;

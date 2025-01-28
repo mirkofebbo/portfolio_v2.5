@@ -7,9 +7,8 @@ import ProjectCard from '../components/ProjectCard';
 import JobCard from '../components/JobCard';
 
 const HeroPage = ({ metadata }) => {
-    const { ProjectSelection } = useParams(null);
-    const data = metadata[ProjectSelection];
-
+    const { role, ProjectSelection, ProjectIndex } = useParams();
+    const data = metadata[role];
     const [projectDataList, setProjectDataList] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -18,10 +17,12 @@ const HeroPage = ({ metadata }) => {
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);
-            const loadedData = await Promise.all(
+
+            let loadedData = [];
+
+            loadedData = await Promise.all(
                 data.list.map(async (project) => {
-                    const result = await loadProjectJson(project);
-                    return result;
+                    return await loadProjectJson(project);
                 })
             );
             setProjectDataList(loadedData);
@@ -34,36 +35,28 @@ const HeroPage = ({ metadata }) => {
     // CHeck loading
     if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
     // Check if we have a project
-    if (!projectDataList.length || !ProjectSelection) return <Box><Typography variant="h1">Error: Project not found</Typography></Box>;
-   
+    if (!projectDataList.length || !role) return <Box><Typography variant="h1">Error: Project not found</Typography></Box>;
+
     // generate project list
     const projectList = projectDataList.map((project, index) => {
-        if (ProjectSelection === "job") {
-            return (
-                <JobCard key={index} data={project} projectPageUrl={`/${ProjectSelection}/${index}`} />
-            );
-        }
-        else {
+
+        if (role === "job") {
+            return < JobCard key={index} data={project} projectPageUrl={`/${role}/${project.title}`} />;
+        } else {
             return (
                 <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center" alignItems="center">
-                    <ProjectCard key={index} data={project} projectPageUrl={`/${ProjectSelection}/${index}`} />
+                    <ProjectCard key={index} data={project} projectPageUrl={`/${role}/${index}`} />
                 </Grid>
             );
         }
     });
 
     return (
-        <div>
-            {ProjectSelection === "job" ? (
-                <Box>
-                    {projectList}
-                </Box>
-            ) : (
-                <Grid container spacing={1} justifyItems={"right"}>
-                    {projectList}
-                </Grid>
-            )}
-        </div>
+
+        <Grid container spacing={1} justifyItems={"right"}>
+            {projectList}
+        </Grid>
+
     );
 };
 
