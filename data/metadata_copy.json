@@ -1,0 +1,36 @@
+{
+    "project": {
+        "hidden": false,
+        "list": [
+            "2019/MAXIMILIEN_ROBESPIERRE.json",
+            "2021/TRANSPARENCY.json",
+            "2022/MECHANICUS.json",
+            "2023/NEUROLIVE_HSWBA.json",
+            "2023/FAST_FAMILIAR_FIRST_DAY.json"
+        ]
+    },
+    "job": {
+        "hidden": false,
+        "list": [
+            "job/neurolive.json"
+        ]
+    },
+    "archive": {
+        "hidden": false,
+        "list": [
+            "2019/MAXIMILIEN_ROBESPIERRE.json",
+            "2020/RESEARCH.json",
+            "2021/TRANSPARENCY.json",
+            "2022/MECHANICUS.json",
+            "2023/NEUROLIVE_HSWBA.json",
+            "2023/FAST_FAMILIAR_FIRST_DAY.json"
+        ]
+    },
+    "coding": {
+        "hidden": true,
+        "list": [
+            "2023/NEUROLIVE_HSWBA.json",
+            "2023/FAST_FAMILIAR_FIRST_DAY.json"
+        ]
+    }
+}

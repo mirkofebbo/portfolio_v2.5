@@ -1,0 +1,56 @@
+{
+  "title": "NESTA_STRATEGY_ROOM",
+  "date": "01/08/2023",
+  "status": "Completed",
+  "type": "PROJECT",
+  "keywords": [
+    "freelance",
+    "data_visualisation",
+    "data",
+    "next.js",
+    "vercel",
+    "aws"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/0.jpg",
+  "oneLiner": "A data exploration platform that empowers users to visualize and interact with complex datasets.",
+  "videoUrl": "https://www.youtube.com/embed/SsUmbzK3B78",
+  "description": "The Strategy Room is an immersive experience that combines facilitated deliberation, interactive polling, and collective intelligence to identify the climate change policies that will best help local areas to reach net zero emissions. It’s a way for people to walk in off the street and, within 90 minutes, imagine together the benefits of a net-zero future, while helping create a strategy for their local area on how to get there.",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/0.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/1.mov",
+    "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/2.mov",
+    "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/3.mov"
+  ],
+  "section": [
+    {
+      "subtitle": "Project Involvement and Contribution",
+      "text": "In our collaborative endeavor, I embarked on a significant project aimed at optimizing the data analysis and visualization process. Our team played a pivotal role in enhancing the efficiency and functionality of the system, enabling a more streamlined and insightful exploration of complex datasets.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/0.jpg",
+      "url": "https://strategyroom.uk/explore"
+    },
+    {
+      "subtitle": "Process and Development Journey",
+      "text": "Throughout the project's lifecycle, we diligently pursued a systematic development approach. I meticulously designed and implemented solutions that encompassed data filtering, visualization, and user interaction. Our team actively engaged in refining the user experience, ensuring smooth data exploration through responsive graphs and intuitive user interfaces. I iteratively tested and fine-tuned the system, leveraging user feedback to continuously enhance its capabilities.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/1.mov",
+      "url": ""
+    },
+    {
+      "subtitle": "Technologies at the Core",
+      "text": "The project was underpinned by cutting-edge technologies that empowered us to deliver an exceptional data exploration platform. Leveraging React and Material-UI, I crafted dynamic user interfaces that seamlessly adapt to various devices. We harnessed the power of Next.js to ensure optimal performance and enhanced SEO. In addition, I integrated interactive data visualization libraries like D3.js to enable users to gain meaningful insights from the data at their fingertips.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/2.mov",
+      "url": ""
+    },
+    {
+      "subtitle": "Conclusion",
+      "text": "In conclusion, our collective efforts have borne fruit in the form of an innovative data exploration system. By collaborating closely, adhering to a systematic development process, and harnessing advanced technologies, we've succeeded in delivering a platform that empowers users to delve into intricate datasets with ease. This project stands as a testament to our commitment to excellence in software development and our ability to create solutions that empower data-driven decision-making.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/3.mov",
+      "url": ""
+    },
+    {
+      "subtitle": "Cast and Creative Team",
+      "text": "WRITER & RESEARCHER Rachel Briscoe | DIRECTOR Dan Barnard | COMPUTATIONAL ARTIST Joe McAlister and Mirko Febbo | INTERVIEW FILMS Sheila Marshall | CAST Paul Brendan, John Gregor, Abla Kandalaft, Emma Pallant, Jamie Zubairi | FEATURED EXPERTS Debora Kayembe, Rachael Minott, David Nkusi, Léon Tsambu, Shirley Vinda, Sara Wajid, Frederick Yamusangie | WITH THANKS TO Ollie Douglas.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/0.jpg",
+      "url": ""
+    }
+  ]
+}

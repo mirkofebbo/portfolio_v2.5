@@ -1,0 +1,48 @@
+{
+    "id": 4,
+    "title": "MECHANICUS",
+    "date": "08/10/2022",
+    "status": "Completed",
+    "keywords": [
+      "goldsmiths",
+      "research",
+      "api",
+      "python",
+      "data_sync",
+      "data_visualisation"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/3aYjLZrcQzk",
+
+    "mediaUrl": [
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/0.jpeg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/0.mov",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/1.mov",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/2.mov",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_1.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_2.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_3.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_4.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_5.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_6.jpg",
+      "https://mirkoPortfolio.b-cdn.net/2022/MECHANICUS/katerina-vahalova_photo_7.jpg"
+    ],
+    "imageDescription": [
+      ""
+    ],
+    "subTitle": [
+      "Overview",
+      "Concept",
+      "Technical Implementation",
+      "Reflection and Challenges",
+      "Future Development"
+    ],
+    "oneLiner": "A self-destructing machine that interprets live stock data, activating 25 modules of servo motors and gearing systems to reflect stock changes.",
+    "description": "",
+    "paragraph": [
+      "Mechanicus is a physical representation of the unsustainable control an individual can exert over multiple companies through stock investment. It's a self-destructing machine that interprets live stock data, activating 25 modules of servo motors and gearing systems to reflect stock changes. The project highlights the fragility and eventual collapse of a system driven solely by profit",
+      "Inspired by research in mass psychology, macroeconomics, and geo-politics, Mechanicus aims to expose the intricate workings of our economic system. It emphasizes how a single human's control over multiple corporations, driven only by profit, is unsustainable. The project symbolizes how this greed-driven approach neglects customer needs, employee well-being, and environmental sustainability.",
+      "The installation consists of a mechanical sculpture and a screen displaying stock portfolio information. Data is extracted from the iexcloud API, and the mechanical parts are made of wood to symbolize the wear and tear on employees. Each module uses two servo motors to create rotating and actuation motion, representing a corporation. The communication system uses modbus via RS485 cable, and the power distribution reflects the economic theory of information scarcity.",
+      "Mechanicus illustrates how the system's slow destruction mirrors the degradation of our world system. The project faced challenges such as voltage reduction, information overload, and wear and tear, which further emphasized the theme of collapse.",
+      "Future iterations may involve collaboration with engineers, improved manufacturing techniques, and added user interactivity."
+    ]
+  }

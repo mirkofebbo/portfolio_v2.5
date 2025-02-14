@@ -1,0 +1,71 @@
+{
+  "title": "NEUROLIVE_HSWBA",
+  "date": "12/10/2022",
+  "status": "Ongoing Data Sync",
+  "type": "PROJECT",
+  "keywords": [
+    "goldsmiths",
+    "research",
+    "software",
+    "python",
+    "data_sync",
+    "api",
+    "lsl"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/0.jpeg",
+  "oneLiner": "A software created to monitor and control multiple sensors during live performance neuroscientific research.",
+  "videoUrl": "/media/NEUROLIVE_HSWBA/how_shall_we_begin_again.mp4",
+  "description": "'How Shall We Begin Again?' is a new performance initiated by artist Jo Fong: a two-day live installation, created and performed by 50 people.",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/0.jpeg",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/1.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/10.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/11.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/12.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/13.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/14.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/15.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/16.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/17.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/18.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/19.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/2.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/20.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/21.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/22.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/23.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/3.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/4.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/5.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/6.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/7.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/8.png",
+    "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/9.png"
+  ],
+  "section": [
+    {
+      "subtitle": "Introduction and Involvement",
+      "text": "How Shall We Begin Again? is a collective action. Each person involved is invited to contribute twelve pieces of music of which three are randomly selected and played for them in no particular order. This live installation is about returning to the body, returning to ourselves. Each person interprets this opportunity. Taking up space, being seen, being present and for some it’s simply about liveness: the act of being in the moment. Across the two days of the performance, nothing repeats. Audience members are invited to book a ticket for the time they want to arrive and then stay as long as they like.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/0.jpeg",
+      "url": "https://neurolive.info/Performance-2"
+    },
+    {
+      "subtitle": "Technical Details",
+      "text": "My contribution to the project involves the synchronization of data between two high-tech sensors: the Ant Neuro EEG headset and a breathing belt, both connected to a tablet, and Pupil Labs' invisible glasses that track eye movements. The software was written in Python and designed to be modular, accommodating people entering and exiting the performance space. Communication with the EEG headset and breathing belt was achieved via LSL, while the eye-tracking glasses were accessed through an API. A significant challenge was managing threading, with constant messages sent to every device at 5-second intervals and additional messages sent to mark new songs played by the DJ. The project also includes the development of a data visualization website using React, Material-UI, and D3.js.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/1.png",
+      "url": ""
+    },
+    {
+      "subtitle": "Thesis",
+      "text": "The core objective of the project was to create a precise and efficient system for synchronizing data between different sensory devices, specifically in the context of tracking performance and facilitating synchronization between the EEG and Pupil Labs datasets. By developing a system that can handle real-time data from multiple sources, the project aims to provide valuable insights into human performance and behavior. The inclusion of a DJ's song data adds an additional layer of complexity, allowing for a more nuanced understanding of the relationship between auditory stimuli and physiological responses.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/10.png",
+      "url": ""
+    },
+    {
+      "subtitle": "Conclusion",
+      "text": "The project represents a significant achievement in the field of real-time data synchronization and analysis, particularly for a developer with limited coding experience. Under the guidance of Jamie Ward, the system was developed in just two months, working two days a week. The next steps include automating the synchronization of the EEG and Pupil Labs datasets and enhancing the data visualization website. The project's success demonstrates the potential for integrating various sensory data to create a comprehensive understanding of human performance and offers a promising foundation for future research and development in this area.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/11.png",
+      "url": ""
+    }
+  ]
+}

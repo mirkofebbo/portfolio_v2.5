@@ -1,0 +1,55 @@
+{
+  "title": "FAST_FAMILIAR_FIRST_DAY",
+  "date": "01/08/2023",
+  "status": "Completed",
+  "type": "PROJECT",
+  "keywords": [
+    "freelance",
+    "education",
+    "game",
+    "javaScript",
+    "css",
+    "html"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
+  "oneLiner": "A game that helps children transition to secondary school.",
+  "videoUrl": "https://www.youtube.com/embed/onu9yYvU0dQ",
+  "description": "First Day is a light-hearted and playful game about transitioning to secondary school. It combines graphic novel-style illustration, audio drama, story ‘choice points’ and puzzles. Players make choices about what Aleks should do and solve puzzles to help her… puzzles which involve them practicing skills they will need, like reading timetables, prioritising actions and navigating a new space.",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/1.mov",
+    "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/3.mov"
+  ],
+  "section": [
+    {
+      "subtitle": "Introduction and Involvement",
+      "text": "In the recent project focused on enhancing the interactive building map, our involvement was multifaceted. We were responsible for designing and implementing key features that enhanced user interaction and the overall visual appeal. Collaborating closely with the client, we identified specific areas that required improvements and crafted custom solutions tailored to the unique needs of the project.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
+      "url": "https://fastfamiliar.com/education/first-day/"
+    },
+    {
+      "subtitle": "Process and Development",
+      "text": "The development process was characterized by a meticulous and iterative approach. We began by understanding the existing system, identifying limitations, and establishing clear objectives. The project consisted of various stages including designing responsive layouts, implementing dynamic hover effects, fixing visual glitches, and ensuring the correct alignment of elements. Regular communication and feedback loops ensured that the project stayed on track and met the desired quality standards.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/1.mov",
+      "url": ""
+    },
+    {
+      "subtitle": "Technology Used",
+      "text": "In order to achieve the required functionalities and effects, a variety of cutting-edge technologies were employed. The project relied heavily on HTML, CSS, and JavaScript to create a seamless and engaging user experience. Specific techniques such as SVG filters were used to create realistic marker highlights, while CSS adjustments ensured the correct positioning and scaling of background images and other elements.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/3.mov",
+      "url": ""
+    },
+    {
+      "subtitle": "Conclusion",
+      "text": "The successful completion of this project not only resulted in a visually appealing and functional interactive building map but also demonstrated the effectiveness of a collaborative and tailored approach. The use of modern web technologies allowed for a rich and responsive user experience, fulfilling the client's requirements. The lessons learned and the experience gained from this project will undoubtedly contribute to future endeavors, setting a high standard for quality and innovation.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Cast and Creative Team",
+      "text": "WRITTEN BY Delme Thomas, Rachel Briscoe & 2022/23 Year 6 at Katesgrove Primary School | INTERFACE DESIGN by Joe McAlister and Mirko Febbo | ILLUSTRATOR Marco Drago | SOUND DESIGNER Helen Skiera | ARTISTIC ASSOCIATE Dan Barnard | COMMS DESIGN Guy J Sanders | CAST: ALEKS Baylee Frank | MEI Alice Valeriano | NIKHIL Yajur Jayendhar | HANNAH Lyla Attwooll | TAYA Ariella Adu-Kingsley | AMARI Mark Mwangi | CLEMMIE Rose Skiera | MADAME PERCIVAL Rachel Donovan | MISS BROOMFIELD Endy McKay | COACH RYAN/ MR FISHER Delme Thomas | WITH THANKS TO Martyna Adamska, Sherine Ahmed, Adam Elliott & John Luther",
+      "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
+      "url": ""
+    }
+  ]
+}

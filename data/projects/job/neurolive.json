@@ -1,0 +1,92 @@
+{
+    "title": "Neurolive",
+    "employer": "Institute of Cognitive Neuroscience, UCL, London",
+    "date": "06/09/2020",
+    "type": "JOB",
+    "keywords": [
+        "art",
+        "performance",
+        "collaboration",
+        "ai",
+        "python",
+        "neuroscience",
+        "audio-visual",
+        "react"
+    ],
+    "heroImage": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/0.jpg",
+    "oneLiner": "Collaborating with artists and scientists to pioneer large-scale hyperscanning in live performance contexts.",
+    "videoUrl": null,
+    "description": "An ongoing role since 2021 that started at Goldsmiths and is now based at UCL. Neurolive explores 'liveness' in the context of live performance, challenging traditional methods of recording brain data. Each performance involves collaboration between artists and scientists. Equipped with 24 EEG devices and 24 eye trackers, Neurolive is the first scientific project to conduct hyperscanning at this scale and outside of a lab environment.",
+    "section": [
+        {
+            "subtitle": "Performance 1: EEG Gelling Assistant",
+            "text": "",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Assisted with EEG preparation and participant setup for the first performance.",
+                "Gained foundational experience working with AntNeuro EEG devices and Pupil Labs eye trackers in a live setting."
+            ]
+        },
+        {
+            "subtitle": "Performance 2: Software Developer",
+            "text": "A unique 16-hour show over two days with a new performer every 15 minutes. Participants could join or leave at any time.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2022/NEUROLIVE_HSWBA/1.png",
+            "url": "2022/NEUROLIVE_HSWBA.json",
+            "responsibilities": [
+                "Developed Python-based software to manage and synchronize data:",
+                [
+                    "Sent LSL messages compatible with AntNeuro EEG devices.",
+                    "Used the Pupil Labs API and Time Echo Protocol to synchronize eye tracker data.",
+                    "Tracked songs played during the performance for data alignment."
+                ],
+                "Post-performance:",
+                [
+                    "Addressed threading and scaling challenges to handle the dynamic environment.",
+                    "Cleaned and organized data for the science team.",
+                    "Created an interactive D3.js visualization to help the team understand the scope of recorded messages and their counterparts across devices."
+                ]
+            ]
+        },
+        {
+            "subtitle": "Performance 3: Software Optimization and Advanced Synchronization",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/NEUROLIVE_SNAKESKIN_IN_THE_WILD/4.jpg",
+            "url": "2023/NEUROLIVE_SNAKESKIN_IN_THE_WILD.json",
+            "responsibilities": [
+                "Conducted a smaller pre-performance focused solely on eye tracking to optimize threading issues in the software.",
+                "Collaborated with Jamie Forth to redesign the EEG synchronization process.",
+                [
+                    "Discovered limitations in AntNeuro software's LSL utilization.",
+                    "Developed a hack to gather data directly from the amplifier and stream it via pyLSL.",
+                    "Achieved enhanced synchronization and alignment for EEG data."
+                ]
+            ]
+        },
+        {
+            "subtitle": "Performance 4: Pushing LSL Streaming Limits",
+            "media": "https://mirkoPortfolio.b-cdn.net/2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN/10.JPG",
+            "url":  "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json",
+            "responsibilities": [
+                "Designed and implemented a multi-PC setup to maximize system performance.",
+                [
+                    "Assigned specific tasks to three desktops: streaming or recording video, audio, EEG, and IMU data from the eye trackers.",
+                    "Utilized a laptop to run a front-end interface for system control and deliver audio cues to performers."
+                ],
+                "Integrated multiple streams:",
+                [
+                    "Two live video feeds.",
+                    "Audio channel recordings.",
+                    "Eye tracker IMU data streaming.",
+                    "EEG data streaming via LSL."
+                ],
+                "Aimed to achieve seamless synchronization of all data streams, creating a robust and scalable system for the performance."
+            ]
+        }
+    ],
+    "skillsGained": [
+        "Real-time data acquisition and synchronization using LSL.",
+        "Custom software development for multi-device integration.",
+        "Problem-solving under high-pressure, live-performance conditions.",
+        "Effective communication and collaboration with interdisciplinary teams of artists and scientists."
+    ]
+}
