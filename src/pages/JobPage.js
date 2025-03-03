@@ -7,39 +7,32 @@ import Paragraph from "../components/Paragraph";
 import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
 import JobCard from "../components/JobCard";
+import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
 
 const JobPage = ({ metadata }) => {
-    const { JobName } = useParams();
+    const { role, ProjectIndex } = useParams();
+    const { loadProjectJson } = useLoadProjectJson();
     const [data, setData] = useState(null);
-
-    let projectUrl = ""
-    for (let i = 0; i < metadata["job"].list.length; i++) {
-        if (metadata["job"].list[i].title === JobName) {
-            projectUrl = metadata["job"].list[i].url;
-            break;
-        }
-    }
-
-    const projectPath = `/data/projects/${projectUrl}`;
-
-    console.log("JobPage", JobName, projectUrl, projectPath);
+    const [loading, setLoading] = useState(true);
+    console.log("JobPage");
+    
+    let projectUrl = metadata[role].list[ProjectIndex].url;
+    console.log( metadata[role].list[ProjectIndex])
     useEffect(() => {
-        fetch(projectPath)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then((data) => {
-                setData(data);
-            })
-            .catch((error) => {
-                console.error("Fetch error:", error);
-                return null;
-            });
-    }, [projectPath]);
+        const loadProjectData = async () => {
+            setLoading(true);
 
+            let loadedData = [];
+
+            loadedData = await loadProjectJson(projectUrl);
+            setData(loadedData);
+            setLoading(false);
+        };
+
+        loadProjectData();
+    }, []);
+
+    if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
 
     if (data === null) {
         return (

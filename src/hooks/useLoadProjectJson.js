@@ -17,7 +17,6 @@ export function useLoadProjectJson() {
 
         try {
             const response = await fetch(process.env.PUBLIC_URL + projectPath);
-            console.log(response)
             if (!response.ok) {
             throw new Error('Network response was not ok');
             }

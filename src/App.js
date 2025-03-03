@@ -32,7 +32,7 @@ function App() {
           <Route path="/:role" element={<HeroPage metadata={metadata}/>} />
           <Route path="/:role/:ProjectIndex" element={<PageSelection metadata={metadata}/>} />
           {/* <Route path="/:role/:JobName" element={<JobPage metadata={metadata}/>} /> */}
-          {/* <Route path="/:role/:JobName/:ProjectIndex" element={<ProjectPage metadata={metadata}/>} /> */}
+          <Route path="/:role/:ProjectIndex/:SubProjectIndex" element={<ProjectPage metadata={metadata}/>} />
         </Routes>
       </BrowserRouter>
 

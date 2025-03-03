@@ -41,7 +41,7 @@ const HeroPage = ({ metadata }) => {
     const projectList = projectDataList.map((project, index) => {
 
         if (role === "job") {
-            return < JobCard key={index} data={project} projectPageUrl={`/${role}/${project.title}`} />;
+            return < JobCard key={index} data={project} projectPageUrl={`/${role}/${index}`} />;
         } else {
             return (
                 <Grid size={{ xs: 12, sm: 4 }} display="flex" justifyContent="center" alignItems="center">

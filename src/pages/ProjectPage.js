@@ -6,21 +6,21 @@ import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
 import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
-import JobCard from "../components/JobCard";
 import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
 
 const ProjectPage = ({ metadata }) => {
 
-    const { role, ProjectIndex } = useParams();
+    const { role, ProjectIndex, SubProjectIndex } = useParams();
     const { loadProjectJson } = useLoadProjectJson();
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     
-    console.log("ProjectPage", role, ProjectIndex);
-    let projectUrl  = metadata[role].list[ProjectIndex];
-    const projectPath = `/data/projects/${projectUrl}`;
-    console.log("projectPath", projectPath);
+    let projectUrl = "";
+    if (SubProjectIndex >= 0) projectUrl = metadata[role].list[ProjectIndex].list[SubProjectIndex];
+    else projectUrl = metadata[role].list[ProjectIndex];
 
+    console.log("ProjecPage")
+    console.log(SubProjectIndex)
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);

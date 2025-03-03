@@ -5,12 +5,12 @@ import { isVideo } from '../helpers/Helpers';
 import { Link } from 'react-router-dom';
 
 export default function Paragraph({ sections }) {
-    const { JobName } = useParams();
+    const { ProjectIndex } = useParams();
 
     const paragraphCard = sections.map((section, index) => {
         return (
             <Box margin={2} key={index}>
-                <CardActionArea  component={Link} to={`/job/${JobName}/${index}`} >
+                <CardActionArea  component={Link} to={`/job/${ProjectIndex}/${index}`} >
                     <Card sx={{ display: 'flex' }}>
                         {section.media !== "" ? (
                             <CardMedia
