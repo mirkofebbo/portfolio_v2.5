@@ -4,9 +4,6 @@ import { Box, Typography, Divider } from "@mui/material";
 
 import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
-import MetaInfo from "../components/MetaInfo";
-import MediaGrid from "../components/MediaGrid";
-import JobCard from "../components/JobCard";
 import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
 
 const JobPage = ({ metadata }) => {
@@ -14,10 +11,8 @@ const JobPage = ({ metadata }) => {
     const { loadProjectJson } = useLoadProjectJson();
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
-    console.log("JobPage");
     
     let projectUrl = metadata[role].list[ProjectIndex].url;
-    console.log( metadata[role].list[ProjectIndex])
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);

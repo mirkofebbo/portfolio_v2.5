@@ -1,42 +1,47 @@
 import { Box, Typography, Card, CardContent, CardMedia, CardActionArea } from '@mui/material';
 import NestedList from './NestedList';
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { isVideo } from '../helpers/Helpers';
-import { Link } from 'react-router-dom';
 
 export default function Paragraph({ sections }) {
     const { ProjectIndex } = useParams();
 
-    const paragraphCard = sections.map((section, index) => {
-        return (
-            <Box margin={2} key={index}>
-                <CardActionArea  component={Link} to={`/job/${ProjectIndex}/${index}`} >
-                    <Card sx={{ display: 'flex' }}>
-                        {section.media !== "" ? (
-                            <CardMedia
-                                component={isVideo(section.media) ? 'video' : 'img'}
-                                sx={{ width: "250px", height: "auto" }}
-                                image={section.media}
-                            />
-                        ) : null}
-                        <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                            <CardContent sx={{ alignContent: 'center', justifyContent: 'center' }}>
-                                <Typography align="left" variant="h5" component="h2">
-                                    {section.subtitle}
-                                </Typography>
-                                <Typography align="left" variant="body1" >
-                                    {section.text}
-                                </Typography>
-                                {"responsibilities" in section ?
-                                    <NestedList responsibilities={section.responsibilities} />
-                                    : null}
-                            </CardContent>
-                        </Box>
-                    </Card>
-                </CardActionArea>
+    const renderCard = (section, index) => (
+        <Card sx={{ display: 'flex' }}>
+            {section.media && (
+                <CardMedia
+                    component={isVideo(section.media) ? 'video' : 'img'}
+                    sx={{ width: "250px", height: "auto" }}
+                    image={section.media}
+                />
+            )}
+            <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                <CardContent sx={{ alignContent: 'center', justifyContent: 'center' }}>
+                    <Typography align="left" variant="h5" component="h2">
+                        {section.subtitle}
+                    </Typography>
+                    <Typography align="left" variant="body1">
+                        {section.text}
+                    </Typography>
+                    {section.responsibilities && <NestedList responsibilities={section.responsibilities} />}
+                </CardContent>
             </Box>
-        );
-    });
+        </Card>
+    );
 
-    return <Box>{paragraphCard}</Box>;
+    return (
+        <Box>
+            {sections.map((section, index) => (
+                <Box margin={2} key={index}>
+                    {section.url ? (
+                        <CardActionArea component={Link} to={`/job/${ProjectIndex}/${index}`}>
+                            {renderCard(section, index)}
+                        </CardActionArea>
+                    ) : (
+                        renderCard(section, index)
+                    )}
+                </Box>
+            ))}
+        </Box>
+    );
 }
