@@ -7,43 +7,36 @@ import Paragraph from "../components/Paragraph";
 import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
 import JobCard from "../components/JobCard";
+import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
+
 const ProjectPage = ({ metadata }) => {
-    const { role, JobName, ProjectIndex } = useParams();
+
+    const { role, ProjectIndex } = useParams();
+    const { loadProjectJson } = useLoadProjectJson();
     const [data, setData] = useState(null);
-
-    console.log("ProjectPage", role, JobName, ProjectIndex);
-    let projectUrl = "";
-    if (role === "project") {
-        projectUrl = metadata[role].list[ProjectIndex];
-    } else {
-        for (let i = 0; i < metadata[role].list.length; i++) {
-            if (metadata[role].list[i].title === JobName) {
-                projectUrl = metadata[role].list[i].url;
-                break;
-            }
-        }
-    }
-
+    const [loading, setLoading] = useState(true);
+    
+    console.log("ProjectPage", role, ProjectIndex);
+    let projectUrl  = metadata[role].list[ProjectIndex];
     const projectPath = `/data/projects/${projectUrl}`;
+    console.log("projectPath", projectPath);
 
     useEffect(() => {
-        fetch(projectPath)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then((data) => {
-                // console.log("data", data);
-                setData(data);
-            })
-            .catch((error) => {
-                console.error("Fetch error:", error);
-                return null;
-            });
-    }, [projectPath]);
+        const loadProjectData = async () => {
+            setLoading(true);
 
+            let loadedData = [];
+
+            loadedData = await loadProjectJson(projectUrl);
+            setData(loadedData);
+            setLoading(false);
+        };
+
+        loadProjectData();
+    }, []);
+
+    if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
+    
 
     if (data === null) {
         return (

@@ -5,6 +5,7 @@ export function useLoadProjectJson() {
     const [error, setError] = useState(null);
 
     const loadProjectJson = async ( project ) => {
+
         let projectPath = '';        
         if (!project) {
             return null;
@@ -15,11 +16,14 @@ export function useLoadProjectJson() {
         }
 
         try {
-            const response = await fetch(projectPath);
+            const response = await fetch(process.env.PUBLIC_URL + projectPath);
+            console.log(response)
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+            throw new Error('Network response was not ok');
             }
-            const data = await response.json();
+            const text = await response.text();
+            const data = JSON.parse(text);
+            setProjectData(data);
             return data;
         } catch (error) {
             console.error("Fetch error:", error);
