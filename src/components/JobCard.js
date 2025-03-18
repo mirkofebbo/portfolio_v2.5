@@ -22,13 +22,15 @@ const JobCard = ({ data, projectPageUrl }) => {
                         {data.oneLiner}
                     </Typography>
                 </CardContent>
-                <CardActions>
-                    <Button
-                        size="small"
-                        component={Link}
-                        to={projectPageUrl}>
-                        Learn More
-                    </Button>
+                <CardActions sx={{                                justifyContent: 'center',
+                                alignItems: 'center',}}>
+                <Button
+                    variant='small_orange'
+                    component={Link}
+                    to={projectPageUrl}
+                    >
+                    Learn More
+                </Button>
                 </CardActions>
             </Box>
         </Card>

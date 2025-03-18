@@ -75,7 +75,33 @@ const theme = createTheme({
                                 },
                                 margin: '5px',
                             },
-                        }
+                        }, 
+                        {
+                            props: { variant: 'big_orange' },
+                            style: {
+                                width: '100%',
+                                fontSize: '20px',
+                                color: black,
+                                backgroundColor: OrangePeel,
+                                '&:hover': {
+                                    backgroundColor: Charcoal,
+                                    color: OrangePeel,
+                                },
+                            },
+                        },
+                        {
+                            props: { variant: 'small_orange' },
+                            style: {
+
+                                fontSize: '20px',
+                                color: black,
+                                backgroundColor: OrangePeel,
+                                '&:hover': {
+                                    backgroundColor: Charcoal,
+                                    color: OrangePeel,
+                                },
+                            },
+                        },
                     ],
                 },
             },

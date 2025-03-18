@@ -53,7 +53,7 @@ const HeroPage = ({ metadata }) => {
 
     return (
 
-        <Grid container spacing={1} justifyItems={"right"}>
+        <Grid container spacing={0} justifyItems={"center"}>
             {projectList}
         </Grid>
 
