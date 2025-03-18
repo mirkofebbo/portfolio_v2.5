@@ -1,0 +1,53 @@
+{
+    "title": "UAL",
+    "employer": "University of the Arts London, London",
+    "date": "Since 2022",
+    "type": "JOB",
+    "keywords": [
+        "Arduino",
+        "physical computing",
+        "wearables",
+        "sculpture",
+        "material composition",
+        "teaching",
+        "coding labs"
+    ],
+    "heroImage": "",
+    "oneLiner": "Teaching Arduino and physical computing to master's students at UAL's Creative Coding Institute.",
+    "videoUrl": "",
+    "description": "Teaching Arduino and physical computing to master's students, with a focus on wearables, sculpture history, and material composition.",
+    "section": [
+        {
+            "subtitle": "2023 - Wearables Class",
+            "text": "Followed the direction of the head of department and led a class focused on wearables.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Prepare class content.",
+                "Deliver class theory/coding labs.",
+                "Support students during labs.",
+                "Grade students.",
+                "Showed great capacity to quickly adapt to new situations and work around stressful environments."
+            ]
+        },
+        {
+            "subtitle": "2024 - Sculpture and Material Composition Focus",
+            "text": "Working with Senior Lecturer and full-time Associate Lecturer to build the class, focusing on sculpture history, material, and composition to encourage students to deviate from creating a product or solving for an issue.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Prepare class content.",
+                "Deliver class theory/coding labs.",
+                "Work as a team on class structure.",
+                "Support students during labs.",
+                "Grade students."
+            ]
+        }
+    ],
+    "skillsGained": [
+        "Curriculum development and class structuring.",
+        "Teaching Arduino and physical computing.",
+        "Guiding students through creative and technical problem-solving.",
+        "Collaboration with faculty and adapting to new teaching directions."
+    ]
+}

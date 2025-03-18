@@ -1,0 +1,109 @@
+{
+    "title": "Kinda",
+    "employer": "Kinda Studio, London",
+    "date": "SINCE 2021",
+    "type": "JOB",
+    "keywords": [
+        "neuroscience",
+        "technology",
+        "wellbeing",
+        "sound therapy",
+        "EEG",
+        "biosensors",
+        "data analysis"
+    ],
+    "heroImage": "https://mirkoPortfolio.b-cdn.net/JOB/KINDA_STUDIO.jpg",
+    "oneLiner": "An ongoing project-based collaboration exploring products within a neuroaesthetic context, combining neuroscience, technology, and wellbeing.",
+    "videoUrl": null,
+    "description": "Ongoing collaboration with Kinda Studio focusing on innovative projects that integrate neuroscience, technology, and wellbeing.",
+    "section": [
+        {
+            "subtitle": "Project: Swell",
+            "text": "Swell harnesses the power of sound to deliver transformative experiences centered around health and wellbeing. The project combined field recordings, music composition, sound therapy, and groundbreaking technology in a custom-designed listening room. Participants were exposed to 10-minute sessions of silence, city noise, and Swell Sound Treatment, while mobile EEG and biosensors measured brainwaves and heart rates. Surveys provided insights into relaxation and reconnection to the natural world.",
+            "media": "https://static.wixstatic.com/media/248c53_5f4739a652004e3e859c624dfdf7fe2f~mv2.jpeg/v1/fill/w_750,h_833,al_c,q_85,enc_avif,quality_auto/Swell_9.jpeg",
+            "url": "https://www.kindastudios.com/onrunningsound",
+            "responsibilities": [
+                "Technical Officer:",
+                [
+                    "Oversaw and maintained EEG equipment.",
+                    "Provided technical support during sessions."
+                ],
+                "Lead Scientist Support:",
+                [
+                    "Monitored equipment during data recording.",
+                    "Operated timestamp markers to synchronize data streams."
+                ],
+                "Data Management:",
+                [
+                    "Cleaned, tidied, and synchronized data for lead scientists.",
+                    "Supported analysis by creating Python-based visualizations."
+                ]
+            ]
+        },
+        {
+            "subtitle": "Project: Sensate",
+            "text": "Explored how Sensate, a wellbeing technology using sound, infrasonics, and resonance to stimulate the vagus nerve, could support new at-home wellbeing rituals. The study examined the effects of Sensate on stress reduction and relaxation through EEG, heart rate measures, and a 3-week daily usage trial with 30 participants.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_1.jpg",
+            "url": "",
+            "responsibilities": [
+                "Technical Officer:",
+                [
+                    "Oversaw and maintained EEG equipment.",
+                    "Provided technical support during sessions."
+                ],
+                "Lead Scientist Support:",
+                [
+                    "Monitored equipment during data recording.",
+                    "Operated timestamp markers to synchronize data streams."
+                ],
+                "Data Management:",
+                [
+                    "Cleaned, tidied, and synchronized data for lead scientists.",
+                    "Supported analysis by creating Python-based visualizations."
+                ]
+            ]
+        },
+        {
+            "subtitle": "Project: On Running (Cloudmonster 2 Launch)",
+            "text": "Partnered with On to launch the Cloudmonster 2 shoe by leveraging neuroscience research on sound and movement. The project developed custom music tracks scientifically designed to energize runners by using specific BPMs, frequencies, and melodic dynamics to enhance mood and performance. Workshops and a neuroaesthetics toolkit were created for Grammy-nominated producer Jayda G and artist Yaeji to support the campaign.",
+            "media": "https://static.wixstatic.com/media/248c53_fe685c66d34c4098b23b24749731dae0~mv2.jpg/v1/crop/x_0,y_324,w_1080,h_1200/fill/w_900,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IG_Stories_2%202_JPG.jpg",
+            "url": "https://www.kindastudios.com/onrunningsound",
+            "responsibilities": [
+                "Technical Officer:",
+                [
+                    "Oversaw and maintained heart rate sensor equipment.",
+                    "Provided technical support during sessions."
+                ],
+                "Lead Scientist Support:",
+                [
+                    "Monitored equipment during data recording.",
+                    "Operated timestamp markers to synchronize data streams."
+                ],
+                "Data Management:",
+                [
+                    "Cleaned, tidied, and synchronized data for lead scientists.",
+                    "Supported analysis by creating Python-based visualizations."
+                ]
+            ]
+        },
+        {
+            "subtitle": "Project: Vivo",
+            "text": "Details coming soon.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Data Management:",
+                [
+                    "Cleaned, tidied, and synchronized data for lead scientists.",
+                    "Supported analysis by creating Python-based visualizations."
+                ]
+            ]
+        }
+    ],
+    "skillsGained": [
+        "EEG data acquisition and synchronization.",
+        "Technical support and equipment maintenance.",
+        "Real-time data processing and visualization using Python.",
+        "Collaboration with interdisciplinary teams in neuroscience and wellbeing research."
+    ]
+}

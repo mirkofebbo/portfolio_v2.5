@@ -13,6 +13,7 @@ const JobPage = ({ metadata }) => {
     const [loading, setLoading] = useState(true);
     
     let projectUrl = metadata[role].list[ProjectIndex].url;
+    
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);

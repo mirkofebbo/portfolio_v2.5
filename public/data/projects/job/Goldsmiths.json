@@ -1,0 +1,93 @@
+{
+    "title": "Goldsmiths",
+    "employer": "Goldsmiths University of London",
+    "date": "SINCE 2022",
+    "type": "JOB",
+    "keywords": [
+        "IT Support",
+        "System Administration",
+        "Python",
+        "Web Scraping",
+        "React",
+        "Material UI",
+        "Fabrication",
+        "MQTT",
+        "Data Visualization"
+    ],
+    "heroImage": "",
+    "oneLiner": "Providing IT support, system administration, and developing coding projects for Goldsmiths University of London.",
+    "videoUrl": "",
+    "description": "Besides my role as a technician, I am actively involved in numerous coding projects, system administration, and fabrication-related tasks.",
+    "section": [
+        {
+            "subtitle": "General Responsibilities",
+            "text": "Supporting the computing department with IT-related tasks, maintenance, and documentation.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "IT support for members of staff.",
+                "Equipment maintenance and acquisition.",
+                "Produce documentation.",
+                "Budget management.",
+                "Apple System Administration [Intune, Munki].",
+                "Wall restoration and painting.",
+                "Fabrication specialist [Woodworking, Metalworking, Laser cutting, 3D printing]."
+            ]
+        },
+        {
+            "subtitle": "Project: Laptop Locker",
+            "text": "Developed an integration solution using the LockNcharge locker API and Goldsmiths Computing booking system, allowing students to book laptops instead of iMacs, potentially saving the university over £200,000.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Backend Python development.",
+                "Utilized web scraping libraries: requests, Selenium, BeautifulSoup.",
+                "Merged LockNcharge locker API and hardware with the Lorensberg Connect2 booking system.",
+                "Implemented dynamic database updates for record-keeping and state changes for the locker."
+            ]
+        },
+        {
+            "subtitle": "Project: Automated Form Filler",
+            "text": "During a lab upgrade involving 160+ iMacs, an automated solution was developed to streamline the form submission process required for recycling the machines, using web scraping.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Automated form submission using web scraping techniques.",
+                "Streamlined the recycling process for IT services."
+            ]
+        },
+        {
+            "subtitle": "Project: Bookable Workplace Data Visualization",
+            "text": "Developed a simple visualizer using React, Material UI, and a JSON file to track workstation bookings, addressing an overflow of students in workshop labs.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Developed a booking system visualizer.",
+                "Used React, Material UI, and JSON for data tracking."
+            ]
+        },
+        {
+            "subtitle": "Project: Car Simulation",
+            "text": "Worked on an interactive car simulation project in the UX lab, managing expectations with senior lecturers and delivering a customizable touchscreen UI solution.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Backend Python development.",
+                "Frontend React development.",
+                "Developed Incarie UI software.",
+                "Implemented MQTT communication protocol.",
+                "Integrated with BeamNG driving simulation.",
+                "Managed multi-server communication.",
+                "Fabricated metalworking/woodworking triptych projection screen."
+            ]
+        }
+    ],
+    "skillsGained": [
+        "System administration and IT support.",
+        "Python-based backend development.",
+        "Web scraping and automation.",
+        "Frontend development with React and Material UI.",
+        "Fabrication and hardware integration."
+    ]
+}
+

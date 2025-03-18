@@ -1,0 +1,87 @@
+{
+    "title": "Fast Familiar",
+    "employer": "Fast Familiar, London",
+    "date": "SINCE 2022",
+    "type": "JOB",
+    "keywords": [
+        "Full Stack Development",
+        "AWS",
+        "D3.js",
+        "Next.js",
+        "Vercel",
+        "Node.js",
+        "p5.js",
+        "React",
+        "Material UI",
+        "Docker"
+    ],
+    "heroImage": "",
+    "oneLiner": "Working under Joe Mcalister in an Agile way with GitLab to develop interactive experiences and web applications.",
+    "videoUrl": "",
+    "description": "Developing interactive web applications and data visualizations for Fast Familiar projects, using modern web technologies and frameworks.",
+    "section": [
+        {
+            "subtitle": "Project: Strategy Room",
+            "text": "The Strategy Room is an immersive experience that uses facilitated deliberation, interactive polling, and collective intelligence to identify climate change policies that will best help each local area reach net zero emissions.",
+            "media": "",
+            "url": "https://strategyroom.uk/explore",
+            "responsibilities": [
+                "Tailored the AWS API for a tidy data visualization format.",
+                "Developed an interactive D3.js visualization using Vercel and Next.js.",
+                "Worked with Nesta senior coder Lewis Wesbury and designer Rita."
+            ]
+        },
+        {
+            "subtitle": "Project: First Day",
+            "text": "First Day is an interactive graphic novel game for young people preparing for secondary school. Players help Aleks on her first day at Parton Academy, where she discovers a shapeshifting creature in her bag.",
+            "media": "",
+            "url": "https://fastfamiliar.com/education/first-day/",
+            "responsibilities": [
+                "Worked on a legacy Node.js code base.",
+                "Developed character animation using CSS, HTML, and JavaScript.",
+                "Updated p5.js interactive puzzle games.",
+                "Created an interactive labyrinth game."
+            ]
+        },
+        {
+            "subtitle": "Workshop: Create Your Own Carbon Neutral Website",
+            "text": "In collaboration with the University of Sussex, Fast Familiar tested an interface that made it easy to edit a static webpage using Jekyll and a CDN, with an eco-efficient perspective.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Familiarized with Jekyll template.",
+                "Created course material and lab session.",
+                "Supported students during lab sessions and online after sessions.",
+                "Covered HTML, CSS, Markdown, GitHub, and Jekyll."
+            ]
+        },
+        {
+            "subtitle": "Project: Wild",
+            "text": "Fast Familiar worked with Manchester Museum on a digital interactive for their new exhibition, Wild. A personality-test style quiz was developed to help visitors explore how personal values shape perceptions of nature and wildness. Additionally, a dynamic data visualization projection was created to display their responses.",
+            "media": "",
+            "url": "https://www.youtube.com/watch?v=mJiZYTCIMTo",
+            "responsibilities": [
+                "Worked on existing React code.",
+                "Frontend development.",
+                "Data visualization with p5.js."
+            ]
+        },
+        {
+            "subtitle": "Project: Manifest Maker",
+            "text": "An internal Full Stack Agile project using Docker, Node.js, React/Vite, and Material UI. The tool helps users build their interactive questionnaire for the Syndicat platform.",
+            "media": "",
+            "url": "",
+            "responsibilities": [
+                "Frontend development.",
+                "Backend development."
+            ]
+        }
+    ],
+    "skillsGained": [
+        "Full Stack Web Development.",
+        "Data Visualization with D3.js and p5.js.",
+        "Agile development workflow with GitLab.",
+        "Developing interactive experiences using modern web technologies."
+    ]
+}
+
