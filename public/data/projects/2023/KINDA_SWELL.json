@@ -1,38 +1,51 @@
 {
     "title": "SWELL",
-    "date": "",
-    "status": "",
-    "type": "",
+    "date": "2023",
+    "status": "COMPLETED",
+    "type": "freelance",
     "keywords": [
-        "",
-        "",
-        ""
+        "neuroscience",
+        "wellbeing",
+        "technology",
+        "sound",
+        "neuroaesthetics",
+        "EEG"
     ],
-    "heroImage": "",
-    "oneLiner": "",
-    "videoUrl": "",
+    "heroImage": "https://static.wixstatic.com/media/248c53_5f4739a652004e3e859c624dfdf7fe2f~mv2.jpeg/v1/fill/w_450,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Swell_9.jpeg",
+    "oneLiner": "Sound treatments for nature connection, Testing sonic therapy for urban recovery & reconnection",
+    "videoUrl": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SWELL/kinda_swell_vid.mp4",
     "description": "",
     "mediaGallery": [
-        "",
-        "",
-        ""
+
     ],
     "section": [
         {
+            "subtitle": "CHALLENGE",
+            "text": "How do Swell’s biophilic soundscapes help drive restoration and nature connection? Swell harnesses the power of sound to deliver transformative experiences, centred around health and wellbeing. It combines field recordings, music composition, and sound therapy with ground-breaking technology.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SWELL/kinda_swell_1.jpg",
+            "url": ""
+        },
+        {
+            "subtitle": "CREATIVE CONCEPT",
+            "text": "A real-world study using EEG & Heart Rate to explore the impact of Swell soundscapes on urban city dwellers. We created a custom-designed listening room to recreate a spa-like environment, where participants were exposed to 10-minutes of silence, city noise and the Swell Sound Treatment, while mobile EEG measured their brainwaves and biosensors measured their heart rate. Surveys at each interval recorded each individual’s personal experience for a complete picture to understand how Swell helps drive relaxation and reconnection to the natural world.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SWELL/kinda_swell_2.jpg",
+            "url": ""
+        },
+        {
+            "subtitle": "EXECUTION",
+            "text": "Swell increased relaxation across all brain-body measures, while self-reports also showed an increase in Nature Relatedness (NR). While listening to Swell, biosensors showed a reduction in heart rate, while EEG recorded boosts in Alpha power (8-14 hz), the brainwave responsible for relaxation, creativity, and openness. This was additionally reflected across self-reported relaxation and a key measure of connection to nature as compared to their urban environments. Swell is a powerful sound experience that can be used across a range of environments to help people relax in only 15-minutes of use.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SWELL/kinda_swell_3.jpg",
+            "url": ""
+        },
+        {
             "subtitle": "",
-            "text": "",
+            "text": "In busy urban lives, it can be difficult to find spaces to calm the often imbalanced nervous system. Effective and entertaining solutions to stress are increasingly important. Both sound and nature are proven to have restorative effects. Pink noise found in field recordings for example promote boosts in our slower, calm-inducing brainwaves. As urban environments grow, access to nature can be a challenge. While not replacing physical interactions with nature, digital experiences can offer a necessary top up to nature therapy. ",
             "media": "",
             "url": ""
         },
         {
             "subtitle": "",
-            "text": "",
-            "media": "",
-            "url": ""
-        },
-        {
-            "subtitle": "",
-            "text": "",
+            "text": " We tested the impact of Swell’s Sound Treatments to provide some of these benefits. Through EEG, Heart Rate and Self-Report surveys, we found it not only increased relaxation, but crucially drove greater Nature Connectedness (NC) - a key measure for both personal and collective wellbeing. Increased NC decreases depression, increases life satisfaction, increases time spent in nature, and as a result, drives pro-environmental behaviour - small daily sustainable actions.",
             "media": "",
             "url": ""
         }

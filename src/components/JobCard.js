@@ -3,11 +3,11 @@ import { Box, Typography, Button, Card, CardContent, CardMedia, CardActions, Car
 import { Link } from 'react-router-dom';
 
 const JobCard = ({ data, projectPageUrl }) => {
-
+    console.log(projectPageUrl);
     return (
         <CardActionArea component={Link} to={projectPageUrl}>
             <Card sx={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', margin: 1, height: 240 }}>
-                {/* CardMedia with a fixed width for the image on the left */}
+                {/* image on the left */}
                 <CardMedia
                     component="img"
                     sx={{ maxWidth: 240, objectFit: 'cover' }}

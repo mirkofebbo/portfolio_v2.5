@@ -49,7 +49,7 @@ const ProjectPage = ({ metadata }) => {
     return (
         <Box flexDirection="column" >
             <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
-            {data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
+            {data.videoUrl !== "" ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
             <Paragraph sections={data.section} />
             <MediaGrid mediaList={data.mediaGallery} />
             <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />

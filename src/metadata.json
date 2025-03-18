@@ -25,11 +25,21 @@
                     "2023/NEUROLIVE_SNAKESKIN_IN_THE_WILD.json",
                     "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json"
                 ]
+            },
+            {
+                "title": "Kinda",
+                "url": "job/kinda.json",
+                "list": [
+                    "2023/KINDA_SWELL.json",
+                    "2023/KINDA_SENSATE.json",
+                    "2024/KINDA_ON.json",
+                    ""
+                ]
             }
         ]
     },
     "archive": {
-        "hidden": false,
+        "hidden": true,
         "type": "default",
         "list": [
             "2019/MAXIMILIEN_ROBESPIERRE.json",
