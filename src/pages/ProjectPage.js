@@ -6,6 +6,8 @@ import Title from "../components/Title";
 import Paragraph from "../components/Paragraph";
 import MetaInfo from "../components/MetaInfo";
 import MediaGrid from "../components/MediaGrid";
+import VideoCard from "../components/VideoCard";
+
 import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
 
 const ProjectPage = ({ metadata }) => {
@@ -19,8 +21,6 @@ const ProjectPage = ({ metadata }) => {
     if (SubProjectIndex >= 0) projectUrl = metadata[role].list[ProjectIndex].list[SubProjectIndex];
     else projectUrl = metadata[role].list[ProjectIndex];
 
-    console.log("ProjecPage")
-    console.log(SubProjectIndex)
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);
@@ -46,10 +46,12 @@ const ProjectPage = ({ metadata }) => {
         );
     }
 
+    
     return (
         <Box flexDirection="column" >
             <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
-            {data.videoUrl !== "" ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
+            <> PROJECT PAGE</>
+            <VideoCard videoUrl={data.videoUrl}/>
             <Paragraph sections={data.section} />
             <MediaGrid mediaList={data.mediaGallery} />
             <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
