@@ -35,14 +35,19 @@ const theme = createTheme({
             color: OrangeGrey,
             fontSize: '20px',
         },
+        body1: {
+            color: OrangeGrey,
+            fontSize: '24px',
+        },
         body2: {
             color: OrangeGrey,
             fontSize: '22px',
         },
-        body1: {
-            color: OrangeGrey,
-            fontSize: '24px',
-        }
+        body3: {
+            color: SandyBrown,
+            fontSize: '18px',
+        },
+
     },
     components: {
 

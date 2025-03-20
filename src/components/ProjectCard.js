@@ -7,7 +7,7 @@ const ProjectCard = ({ data, projectPageUrl }) => {
     return (
         <Card sx={{ maxWidth: 600, margin: 1 }}>
             <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 240 }}
                 image={data.heroImage}
                 title="green iguana"
             />

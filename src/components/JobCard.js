@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography, Button, Card, CardContent, CardMedia, CardActions, CardActionArea } from '@mui/material';
+import { Box, Typography, Card, CardContent, CardMedia, CardActionArea } from '@mui/material';
+import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
 
 const JobCard = ({ data, projectPageUrl }) => {
@@ -19,9 +20,21 @@ const JobCard = ({ data, projectPageUrl }) => {
                         <Typography gutterBottom variant="h5" component="div">
                             {data.title.replace(/_/g, " ")}
                         </Typography>
-                        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                        <Typography variant="body2" sx={{ color: 'text.secondary', height: "120px" }}>
                             {data.oneLiner}
                         </Typography>
+                        <Grid container margin={"auto"}>
+                            {data.keywords.map((keyword, index) => {
+                                return (
+                                    <Grid item lg={6} xl={4} md={4} xs={6}>
+                                        <Typography variant="body3" >
+                                            &nbsp;{keyword} {index === data.keywords.lenght - 1 ? '' : '|'}
+                                        </Typography>
+                                    </Grid>
+                                )
+                            })
+                            }
+                        </Grid>
                     </CardContent>
                 </Box>
             </Card>
