@@ -21,6 +21,7 @@ const theme = createTheme({
         mode: 'dark',
 
         primary: {
+            secondary: SandyBrown,
             main: DarkSienna,
         },
     },
