@@ -42,6 +42,15 @@
                     "2024/KINDA_ON.json",
                     ""
                 ]
+            },
+            {
+                "title": "Fast Familiar",
+                "url": "job/FastFamiliar.json",
+                "list": [
+                    "2023/NESTA_STRATEGY_ROOM.json",
+                    "2023/FAST_FAMILIAR_FIRST_DAY.json",
+                    ""
+                ]
             }
         ]
     },

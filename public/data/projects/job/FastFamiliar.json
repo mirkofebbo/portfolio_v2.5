@@ -1,29 +1,33 @@
 {
-    "title": "Fast Familiar",
+    "title": "Full Stack Developer",
     "employer": "Fast Familiar, London",
     "date": "SINCE 2022",
     "type": "JOB",
     "keywords": [
         "Full Stack Development",
+        "React",
+        "Docker",
+        "TypeScript",
         "AWS",
         "D3.js",
         "Next.js",
         "Vercel",
         "Node.js",
         "p5.js",
-        "React",
         "Material UI",
-        "Docker"
+        "Agile",
+        "GitLab",
+        "Tailwind CSS"
     ],
-    "heroImage": "",
-    "oneLiner": "Working under Joe Mcalister in an Agile way with GitLab to develop interactive experiences and web applications.",
+    "heroImage": "https://fastfamiliar.com/assets/images/homepage/4.png",
+    "oneLiner": "Working under Joe Mcalister within an Agil framework to develop and deliver creative story driven experiences within a web applications.",
     "videoUrl": "",
     "description": "Developing interactive web applications and data visualizations for Fast Familiar projects, using modern web technologies and frameworks.",
     "section": [
         {
             "subtitle": "Project: Strategy Room",
             "text": "The Strategy Room is an immersive experience that uses facilitated deliberation, interactive polling, and collective intelligence to identify climate change policies that will best help each local area reach net zero emissions.",
-            "media": "",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/NESTA_STRATEGY_ROOM/nesta_logo_2.jpg",
             "url": "https://strategyroom.uk/explore",
             "responsibilities": [
                 "Tailored the AWS API for a tidy data visualization format.",
