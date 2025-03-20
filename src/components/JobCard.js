@@ -31,7 +31,7 @@ const JobCard = ({ data, projectPageUrl }) => {
                                 return (
                                     <Grid item key={index}>
                                         <Typography variant="body3" >
-                                            &nbsp;{keyword} {index === data.keywords.length - 1 ? '' : '|'}
+                                            &nbsp;{keyword.toUpperCase() } {index === data.keywords.length - 1 ? '' : '|'}
                                         </Typography>
                                     </Grid>
                                 )
