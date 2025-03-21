@@ -1,0 +1,47 @@
+{
+    "title": "WILD",
+    "date": "2024",
+    "status": "Completed",
+    "type": "freelance",
+    "keywords": [
+        "Frontend",
+        "backend",
+        "installation",
+        "art",
+        "raspberry pi",
+        "react",
+        "node_server",
+        "thermal_printer"
+    ],
+    "heroImage": "",
+    "oneLiner": "A digital interactive experience exploring how personal values shape perceptions of nature and wildness.",
+    "videoUrl": "",
+    "projectUrl": "https://workroom.fastfamiliar.com/interdisciplinary-collaboration/",
+    "client": "Manchester Museum",
+    "description": "In collaboration with Manchester Museum, Fast Familiar developed a personality-test style quiz for the 'Wild' exhibition. This interactive experience allowed visitors to reflect on how their personal values influence their relationship with the natural world. The quiz was complemented by a dynamic data visualization projection that showcased visitors' responses, creating a moment of personal reflection within the exhibition.",
+    "mediaGallery": [
+        "",
+        "",
+        ""
+    ],
+    "section": [
+        {
+            "subtitle": "Project Overview",
+            "text": "Fast Familiar collaborated with Manchester Museum to create a digital interactive for the 'Wild' exhibition. The goal was to engage visitors in reflecting on their personal values and how these shape their perceptions of nature and wildness.",
+            "media": "",
+            "url": ""
+        },
+        {
+            "subtitle": "Interactive Quiz Development",
+            "text": "The team designed a personality-test style quiz, inspired by the Nature Futures Framework, to help visitors explore their values related to nature. This framework includes perspectives such as Nature for Nature, Nature for Culture, and Nature for Society.",
+            "media": "",
+            "url": ""
+        },
+        {
+            "subtitle": "Data Visualization Projection",
+            "text": "Alongside the quiz, a dynamic data visualization projection was implemented to display visitors' responses, enhancing the interactive experience and encouraging deeper engagement with the exhibition content.",
+            "media": "",
+            "url": ""
+        }
+    ]
+}

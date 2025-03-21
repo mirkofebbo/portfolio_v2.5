@@ -22,6 +22,8 @@
     "heroImage": "https://fastfamiliar.com/assets/images/homepage/4.png",
     "oneLiner": "Working under Joe Mcalister within an Agil framework to develop and deliver creative story driven experiences within a web applications.",
     "videoUrl": "",
+    "projectUrl": "https://fastfamiliar.com/",
+    "client": "",
     "description": "Developing interactive web applications and data visualizations for Fast Familiar projects, using modern web technologies and frameworks.",
     "section": [
         {
@@ -62,7 +64,7 @@
         {
             "subtitle": "Project: Wild",
             "text": "Fast Familiar worked with Manchester Museum on a digital interactive for their new exhibition, Wild. A personality-test style quiz was developed to help visitors explore how personal values shape perceptions of nature and wildness. Additionally, a dynamic data visualization projection was created to display their responses.",
-            "media": "",
+            "media": "https://workroom.fastfamiliar.com/content/images/size/w2000/2024/11/Wild-8.jpg",
             "url": "https://www.youtube.com/watch?v=mJiZYTCIMTo",
             "responsibilities": [
                 "Worked on existing React code.",
