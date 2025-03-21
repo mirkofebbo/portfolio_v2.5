@@ -1,5 +1,5 @@
 {
-    "title": "UAL",
+    "title": "Associate Lecturer",
     "employer": "University of the Arts London, London",
     "date": "Since 2022",
     "type": "JOB",
@@ -12,7 +12,7 @@
         "teaching",
         "coding labs"
     ],
-    "heroImage": "",
+    "heroImage": "https://mirkoPortfolio.b-cdn.net/JOB/UAL%20logo%20primary%20white.png",
     "oneLiner": "Teaching Arduino and physical computing to master's students at UAL's Creative Coding Institute.",
     "videoUrl": "",
     "description": "Teaching Arduino and physical computing to master's students, with a focus on wearables, sculpture history, and material composition.",

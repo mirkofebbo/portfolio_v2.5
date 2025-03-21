@@ -13,7 +13,7 @@ const JobPage = ({ metadata }) => {
     const [loading, setLoading] = useState(true);
     
     let projectUrl = metadata[role].list[ProjectIndex].url;
-    
+    console.log("JOB PAGE")
     useEffect(() => {
         const loadProjectData = async () => {
             setLoading(true);
@@ -41,7 +41,7 @@ const JobPage = ({ metadata }) => {
     return (
         <Box flexDirection="column" >
             <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
-            {data.videoUrl !== null ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
+            {data.videoUrl !== "" ? <video src={data.videoUrl} autoPlay loop muted controls={false} style={{ width: "100%", objectFit: "cover" }} /> : null}
             <Paragraph sections={data.section} />
         </Box>
     );
