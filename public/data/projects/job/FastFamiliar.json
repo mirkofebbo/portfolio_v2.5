@@ -40,7 +40,7 @@
         {
             "subtitle": "Project: First Day",
             "text": "First Day is an interactive graphic novel game for young people preparing for secondary school. Players help Aleks on her first day at Parton Academy, where she discovers a shapeshifting creature in her bag.",
-            "media": "",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/FAST_FAMILIAR_FIRST_DAY/0.jpg",
             "url": "https://fastfamiliar.com/education/first-day/",
             "responsibilities": [
                 "Worked on a legacy Node.js code base.",

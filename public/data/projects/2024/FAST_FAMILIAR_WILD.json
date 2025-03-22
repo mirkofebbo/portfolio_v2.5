@@ -1,47 +1,47 @@
 {
-    "title": "WILD",
+    "title": "Wild",
     "date": "2024",
     "status": "Completed",
     "type": "freelance",
     "keywords": [
-        "Frontend",
-        "backend",
-        "installation",
-        "art",
-        "raspberry pi",
-        "react",
-        "node_server",
-        "thermal_printer"
+      "Frontend",
+      "backend",
+      "installation",
+      "art",
+      "raspberry pi",
+      "react",
+      "node_server",
+      "thermal_printer",
+      "data_visualisation"
     ],
-    "heroImage": "",
-    "oneLiner": "A digital interactive experience exploring how personal values shape perceptions of nature and wildness.",
-    "videoUrl": "",
+    "heroImage": "https://workroom.fastfamiliar.com/content/images/size/w2000/2024/11/Wild-8.jpg",
+    "oneLiner": "An interactive quiz and dynamic projection for Manchester Museum’s 'Wild' exhibition, reflecting personal values about nature.",
+    "videoUrl": "https://youtu.be/mJiZYTCIMTo",
     "projectUrl": "https://workroom.fastfamiliar.com/interdisciplinary-collaboration/",
     "client": "Manchester Museum",
-    "description": "In collaboration with Manchester Museum, Fast Familiar developed a personality-test style quiz for the 'Wild' exhibition. This interactive experience allowed visitors to reflect on how their personal values influence their relationship with the natural world. The quiz was complemented by a dynamic data visualization projection that showcased visitors' responses, creating a moment of personal reflection within the exhibition.",
+    "description": "Fast Familiar created a personality-style quiz and generative data projection for the Manchester Museum’s ‘Wild’ exhibition. The interactive aimed to help visitors reflect on their values and their relationship to nature, guided by the Nature Futures Framework. Visitors received printed ‘spider web’ tickets visualising their responses using a thermal receipt printer, powered by a custom backend and frontend system.",
     "mediaGallery": [
-        "",
-        "",
-        ""
+ 
     ],
     "section": [
-        {
-            "subtitle": "Project Overview",
-            "text": "Fast Familiar collaborated with Manchester Museum to create a digital interactive for the 'Wild' exhibition. The goal was to engage visitors in reflecting on their personal values and how these shape their perceptions of nature and wildness.",
-            "media": "",
-            "url": ""
-        },
-        {
-            "subtitle": "Interactive Quiz Development",
-            "text": "The team designed a personality-test style quiz, inspired by the Nature Futures Framework, to help visitors explore their values related to nature. This framework includes perspectives such as Nature for Nature, Nature for Culture, and Nature for Society.",
-            "media": "",
-            "url": ""
-        },
-        {
-            "subtitle": "Data Visualization Projection",
-            "text": "Alongside the quiz, a dynamic data visualization projection was implemented to display visitors' responses, enhancing the interactive experience and encouraging deeper engagement with the exhibition content.",
-            "media": "",
-            "url": ""
-        }
+      {
+        "subtitle": "Interactive Design",
+        "text": "We developed a fast, intuitive quiz designed for a 5-minute museum dwell time. Inspired by formats like personality tests, it helped visitors explore how their values align with different ecological worldviews from the Nature Futures Framework.",
+        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-1.jpg",
+        "url": ""
+      },
+      {
+        "subtitle": "Data Visualisation and Printing",
+        "text": "Quiz answers were turned into a unique ‘spider web’ graphic showing how participants aligned with different nature perspectives. These were projected in real time and printed on eco receipt paper using Raspberry Pi-connected thermal printers.",
+        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-11.jpg",
+        "url": ""
+      },
+      {
+        "subtitle": "Accessible and Collaborative Workflow",
+        "text": "The project included iterative testing, user feedback via Google Forms, and accessibility considerations like high contrast UI options. Weekly cycles with the museum team allowed smooth, collaborative progress from sketch to launch.",
+        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-2.jpg",
+        "url": ""
+      }
     ]
-}
+  }
+  
