@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@mui/material";
+import { Box } from "@mui/material";
 
 export default function VideoCard({ videoUrl }) {
     if (!videoUrl) return <>Invalid video URL</>;
@@ -11,14 +11,12 @@ export default function VideoCard({ videoUrl }) {
         return match ? `https://www.youtube.com/embed/${match[1]}` : null;
     };
 
-    const embedUrl = getYouTubeEmbedUrl(videoUrl);
+    const embedUrl = getYouTubeEmbedUrl(videoUrl);  
     if (!embedUrl) return <>Invalid YouTube link</>;
 
     return (
-        <Card sx={{ width: "100%", height: "450px" }}>
-            <CardContent>
-            <iframe width="100%" height="315" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </CardContent>
-        </Card>
+        <Box sx={{ width: "100%", height: "450px", width: "780px" }}>
+            <iframe width="100%" height="450px" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </Box>
     );
 }

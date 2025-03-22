@@ -50,10 +50,11 @@ const ProjectPage = ({ metadata }) => {
     return (
         <Box flexDirection="column" >
             <Title title={data.title} oneLiner={data.oneLiner} backgroundImg={data.heroImage} />
-            <VideoCard videoUrl={data.videoUrl}/>
+            {/* <VideoCard videoUrl={data.videoUrl}/> */}
+            <MetaInfo data={data} />
+
             <Paragraph sections={data.section} />
             <MediaGrid mediaList={data.mediaGallery} />
-            <MetaInfo date={data.date} status={data.status} keywords={data.keywords} link={data.link} />
         </Box >
     );
 

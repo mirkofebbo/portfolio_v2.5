@@ -5,37 +5,14 @@ import {
 } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { Link } from 'react-router-dom';
+import KeywordTypography from './KeywordTypography';
 
 const JobCard = ({ data, projectPageUrl }) => {
     return (
-        <Card
-            sx={{
-                display: 'flex',
-                flexDirection: { xs: 'column', sm: 'row' },
-                width: '100%',
-                minHeight: 240,
-                marginTop: '1rem'
-            }}
-        >
-            <CardMedia
-                component="img"
-                sx={{
-                    width: { xs: '100%', sm: 240 },
-                    height: { xs: 180, sm: '100%' },
-                    objectFit: 'cover'
-                }}
-                image={data.heroImage}
-                title={data.title}
-            />
+        <Card>
+            <CardMedia component="img" image={data.heroImage} title={data.title} />
             <CardActionArea component={Link} to={projectPageUrl}>
-                <CardContent
-                    sx={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-between',
-                        height: '100%'
-                    }}
-                >
+                <CardContent>
                     <Box>
                         <Typography gutterBottom variant="h5" component="div">
                             {data.title.replace(/_/g, ' ')}
@@ -56,18 +33,7 @@ const JobCard = ({ data, projectPageUrl }) => {
                             {data.oneLiner}
                         </Typography>
                     </Box>
-                    <Box mt={2}>
-                        <Grid container spacing={1} flexWrap="wrap">
-                            {data.keywords.map((keyword, index) => (
-                                <Grid item key={index}>
-                                    <Typography variant="body3">
-                                        {keyword.toUpperCase()}
-                                        {index !== data.keywords.length - 1 ? ' |' : ''}
-                                    </Typography>
-                                </Grid>
-                            ))}
-                        </Grid>
-                    </Box>
+                    <KeywordTypography keywords={data.keywords}/>
                 </CardContent>
             </CardActionArea>
         </Card>
