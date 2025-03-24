@@ -1,47 +1,71 @@
 {
-    "title": "Wild",
-    "date": "2024",
-    "status": "Completed",
-    "type": "freelance",
-    "keywords": [
-      "Frontend",
-      "backend",
-      "installation",
-      "art",
-      "raspberry pi",
-      "react",
-      "node_server",
-      "thermal_printer",
-      "data_visualisation"
-    ],
-    "heroImage": "https://workroom.fastfamiliar.com/content/images/size/w2000/2024/11/Wild-8.jpg",
-    "oneLiner": "An interactive quiz and dynamic projection for Manchester Museum’s 'Wild' exhibition, reflecting personal values about nature.",
-    "videoUrl": "https://youtu.be/mJiZYTCIMTo",
-    "projectUrl": "https://workroom.fastfamiliar.com/interdisciplinary-collaboration/",
-    "client": "Manchester Museum",
-    "description": "Fast Familiar created a personality-style quiz and generative data projection for the Manchester Museum’s ‘Wild’ exhibition. The interactive aimed to help visitors reflect on their values and their relationship to nature, guided by the Nature Futures Framework. Visitors received printed ‘spider web’ tickets visualising their responses using a thermal receipt printer, powered by a custom backend and frontend system.",
-    "mediaGallery": [
- 
-    ],
-    "section": [
-      {
-        "subtitle": "Interactive Design",
-        "text": "We developed a fast, intuitive quiz designed for a 5-minute museum dwell time. Inspired by formats like personality tests, it helped visitors explore how their values align with different ecological worldviews from the Nature Futures Framework.",
-        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-1.jpg",
-        "url": ""
-      },
-      {
-        "subtitle": "Data Visualisation and Printing",
-        "text": "Quiz answers were turned into a unique ‘spider web’ graphic showing how participants aligned with different nature perspectives. These were projected in real time and printed on eco receipt paper using Raspberry Pi-connected thermal printers.",
-        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-11.jpg",
-        "url": ""
-      },
-      {
-        "subtitle": "Accessible and Collaborative Workflow",
-        "text": "The project included iterative testing, user feedback via Google Forms, and accessibility considerations like high contrast UI options. Weekly cycles with the museum team allowed smooth, collaborative progress from sketch to launch.",
-        "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-2.jpg",
-        "url": ""
-      }
-    ]
-  }
-  
+  "title": "Wild",
+  "date": "2024",
+  "status": "Completed",
+  "type": "Freelance",
+  "keywords": [
+    "Frontend",
+    "Backend",
+    "Installation",
+    "Art",
+    "Raspberry Pi",
+    "React",
+    "Node.js",
+    "Thermal Printer",
+    "Data Visualization",
+    "Museum",
+    "UI/UX",
+    "Accessibility"
+  ],
+  "heroImage": "https://workroom.fastfamiliar.com/content/images/size/w2000/2024/11/Wild-8.jpg",
+  "oneLiner": "An interactive quiz and generative projection for Manchester Museum’s 'Wild' exhibition, encouraging reflection on personal values towards nature.",
+  "videoUrl": "https://youtu.be/mJiZYTCIMTo",
+  "projectUrl": "https://workroom.fastfamiliar.com/interdisciplinary-collaboration/",
+  "client": "Manchester Museum",
+  "description": "As part of Fast Familiar’s interdisciplinary team, I served as the frontend developer for the *Wild* project—an interactive installation at Manchester Museum’s 'Wild' exhibition. The project featured a personality-style quiz that guided visitors to reflect on their values and relationship with nature, utilizing the Nature Futures Framework. I developed the data visualization dashboard that transformed quiz responses into real-time generative graphics, which were projected in the gallery and printed onto eco-friendly receipt paper via Raspberry Pi-connected thermal printers. Additionally, I contributed to the physical installation and collaborative testing processes on-site.",
+  "mediaGallery": [],
+  "section": [
+    {
+      "subtitle": "Designing for Interaction and Reflection",
+      "text": "The interactive experience was designed as a five-minute personality quiz, aligning with typical museum dwell times. The quiz format, familiar to many visitors, facilitated intuitive engagement, allowing participants to explore how their values corresponded with different ecological perspectives from the Nature Futures Framework. My role involved creating a responsive and accessible frontend interface for diffrent format.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-1.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Real-Time Data Visualization and Projection",
+      "text": "Upon completion of the quiz, visitors' responses were visualized as unique 'spider web' graphics, illustrating their alignment with three perspectives: Nature for Nature, Nature for Culture, and Nature for Society. I developed the frontend dashboard to render these visuals in real-time. These graphics were projected within the gallery space, providing an immediate and immersive reflection of each participant's values.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-11.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Thermal Printing for Personalized Takeaways",
+      "text": "To extend the reflective experience beyond the museum visit, we implemented a system where each visitor received a printed ticket featuring their unique 'spider web' graphic. Utilizing Raspberry Pi-connected thermal printers and eco-friendly receipt paper, I collaborated on integrating the frontend interface with the backend printing system. This allowed visitors to take home a tangible representation of their quiz results, reinforcing the exhibition's themes.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-3.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Collaborative Development and Iterative Testing",
+      "text": "The project emphasized a collaborative workflow with Manchester Museum's team, incorporating regular feedback loops and iterative testing. We conducted early content testing to gather user insights, which informed subsequent design decisions. This approach ensured that the interactive experience was both engaging and aligned with the exhibition's objectives.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-2.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Accessibility Considerations",
+      "text": "Accessibility was a core focus throughout the development process. The user interface included high-contrast options to accommodate visitors with visual impairments, and the quiz design avoided complex mechanics to ensure ease of understanding. These considerations aimed to make the interactive experience inclusive and enjoyable for a diverse audience.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-4.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Overcoming Technical Challenges",
+      "text": "Integrating real-time data visualization with thermal printing presented several technical challenges. For instance, ensuring the clarity of printed graphics on thermal paper required adjustments to the visual design and printer settings. Through collaborative problem-solving and iterative testing, we achieved a balance between aesthetic quality and technical feasibility.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-5.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Reflections on Interdisciplinary Collaboration",
+      "text": "Working on the *Wild* project highlighted the value of interdisciplinary collaboration. Engaging with curators, designers, and technical experts enriched the development process, leading to a more cohesive and impactful interactive experience. This project underscored the importance of clear communication, mutual respect, and adaptability in achieving successful outcomes.",
+      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-6.jpg",
+      "url": ""
+    }
+  ]
+}

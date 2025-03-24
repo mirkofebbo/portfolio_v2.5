@@ -51,45 +51,7 @@ const theme = createTheme({
 
     },
     components: {
-        MuiCard: {
-            styleOverrides: {
-                root: ({ theme }) => ({
-                    display: 'flex',
-                    flexDirection: 'column',
-                    width: '100%',
-                    minHeight: 240,
-                    marginTop: '1rem',
-                    borderRadius: '10px',
-                    [theme.breakpoints.up('sm')]: {
-                        flexDirection: 'row',
-                    }
-                }),
-            },
-        },
-        MuiCardMedia: {
-            styleOverrides: {
-                root: ({ theme }) => ({
-                    width: '100%',
-                    height: 180,
-                    objectFit: 'cover',
-                    [theme.breakpoints.up('sm')]: {
-                        width: 240,
-                        height: '100%',
-                    }
-                }),
-            },
-        },
-        MuiCardContent: {
-            styleOverrides: {
-                root: {
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between',
-                    height: '100%',
-                },
-            },
-        },
-
+        
         MuiButton: {
             styleOverrides: {
                 root: {
@@ -119,7 +81,7 @@ const theme = createTheme({
                                 },
                                 margin: '5px',
                             },
-                        },
+                        }, 
                         {
                             props: { variant: 'big_orange' },
                             style: {
