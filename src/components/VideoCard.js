@@ -16,7 +16,7 @@ export default function VideoCard({ videoUrl }) {
 
     return (
         <Box sx={{ width: "100%", height: "450px", width: "780px" }}>
-            <iframe width="100%" height="450px" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {/* <iframe width="100%" height="450px" src={embedUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
         </Box>
     );
 }

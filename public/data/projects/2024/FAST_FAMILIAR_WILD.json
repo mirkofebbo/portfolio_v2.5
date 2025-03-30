@@ -22,7 +22,7 @@
   "videoUrl": "https://youtu.be/mJiZYTCIMTo",
   "projectUrl": "https://workroom.fastfamiliar.com/interdisciplinary-collaboration/",
   "client": "Manchester Museum",
-  "description": "As part of Fast Familiar’s interdisciplinary team, I served as the frontend developer for the *Wild* project—an interactive installation at Manchester Museum’s 'Wild' exhibition. The project featured a personality-style quiz that guided visitors to reflect on their values and relationship with nature, utilizing the Nature Futures Framework. I developed the data visualization dashboard that transformed quiz responses into real-time generative graphics, which were projected in the gallery and printed onto eco-friendly receipt paper via Raspberry Pi-connected thermal printers. Additionally, I contributed to the physical installation and collaborative testing processes on-site.",
+  "description": "As part of Fast Familiar’s interdisciplinary team, I served as the frontend developer for an interactive installation at Manchester Museum’s 'Wild' exhibition. I developed the data visualization dashboard that transformed quiz responses into real-time generative graphics, which were projected in the gallery and printed onto eco-friendly receipt paper via Raspberry Pi-connected thermal printers. Additionally, I contributed to the physical installation and collaborative testing processes on-site.",
   "mediaGallery": [],
   "section": [
     {
@@ -58,13 +58,13 @@
     {
       "subtitle": "Overcoming Technical Challenges",
       "text": "Integrating real-time data visualization with thermal printing presented several technical challenges. For instance, ensuring the clarity of printed graphics on thermal paper required adjustments to the visual design and printer settings. Through collaborative problem-solving and iterative testing, we achieved a balance between aesthetic quality and technical feasibility.",
-      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-5.jpg",
+      "media": "",
       "url": ""
     },
     {
       "subtitle": "Reflections on Interdisciplinary Collaboration",
       "text": "Working on the *Wild* project highlighted the value of interdisciplinary collaboration. Engaging with curators, designers, and technical experts enriched the development process, leading to a more cohesive and impactful interactive experience. This project underscored the importance of clear communication, mutual respect, and adaptability in achieving successful outcomes.",
-      "media": "https://workroom.fastfamiliar.com/content/images/size/w1000/2024/11/Wild-6.jpg",
+      "media": "",
       "url": ""
     }
   ]
