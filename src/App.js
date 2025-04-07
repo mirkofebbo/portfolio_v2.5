@@ -4,13 +4,13 @@ import { Typography, Box } from '@mui/material';
 import { ProjectProvider } from './context/ProjectContext';
 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import metadata from './metadata.json';
 
 import Home from './pages/Home';
 import HeroPage from './pages/HeroPage';
 import ProjectPage from './pages/ProjectPage';
-import JobPage from './pages/JobPage';
+// import JobPage from './pages/JobPage';
 import PageSelection from './pages/PageSelection';
 
 function App() {

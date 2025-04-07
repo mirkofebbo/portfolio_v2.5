@@ -6,12 +6,12 @@ const BurntSienna = '#E97451';
 const DarkSienna = '#C68642';
 const SandyBrown = '#E76F51';
 const OrangePeel = '#FF9F1C';
-const HunyadiYellow = '#FFBF69';
+// const HunyadiYellow = '#FFBF69';
 const OrangeGrey = '#d9d1ca';
-const PersionGreen = '#2A9D8F';
+// const PersionGreen = '#2A9D8F';
 const Charcoal = '#264653';
-const LitghtSeaGreen = '#CBF3F0';
-const MintGreen = '#2EC4B6';
+// const LitghtSeaGreen = '#CBF3F0';
+// const MintGreen = '#2EC4B6';
 
 const white = '#FFFFFF';
 
