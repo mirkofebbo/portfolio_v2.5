@@ -26,7 +26,7 @@ const JobPage = ({ metadata }) => {
         };
 
         loadProjectData();
-    }, );
+    }, []);
 
     if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
 
