@@ -30,7 +30,7 @@ const HeroPage = ({ metadata }) => {
         };
 
         loadProjectData();
-    }, [data, loadProjectJson]);
+    }, [data]);
 
     // CHeck loading
     if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;
