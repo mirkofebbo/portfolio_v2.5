@@ -1,4 +1,4 @@
-import { colors, createTheme } from "@mui/material";
+import { createTheme } from "@mui/material";
 
 const orange = '#ff5722';
 const black = '#000000';
@@ -32,10 +32,10 @@ const theme = createTheme({
         h5: {
             color: OrangePeel,
         },
-        body3: {
-            color: OrangeGrey,
-            fontSize: '20px',
-        },
+        // body3: {
+        //     color: OrangeGrey,
+        //     fontSize: '20px',
+        // },
         body1: {
             color: OrangeGrey,
             fontSize: '24px',
