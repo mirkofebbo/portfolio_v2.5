@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Box, Typography, } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import { useLoadProjectJson } from '../hooks/useLoadProjectJson';
@@ -7,7 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 import JobCard from '../components/JobCard';
 
 const HeroPage = ({ metadata }) => {
-    const { role, ProjectSelection, ProjectIndex } = useParams();
+    const { role } = useParams();
     const data = metadata[role];
     const [projectDataList, setProjectDataList] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -30,7 +30,7 @@ const HeroPage = ({ metadata }) => {
         };
 
         loadProjectData();
-    }, [data]);
+    }, [data, loadProjectJson]);
 
     // CHeck loading
     if (loading) return <Box><Typography variant="h1">Loading...</Typography></Box>;

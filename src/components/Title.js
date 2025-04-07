@@ -1,4 +1,4 @@
-import { Box, Typography, alpha } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 export default function Title({ title, oneLiner, backgroundImg }) {
     // header section of the page

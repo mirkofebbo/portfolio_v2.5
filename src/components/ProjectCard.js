@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Card, CardContent, CardMedia, CardActions } from '@mui/material';
+import { Typography, Button, Card, CardContent, CardMedia, CardActions } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ data, projectPageUrl }) => {

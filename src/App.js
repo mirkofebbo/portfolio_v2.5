@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Typography, Box } from '@mui/material';
 import { ProjectProvider } from './context/ProjectContext';
 
