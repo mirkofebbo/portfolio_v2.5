@@ -38,15 +38,16 @@ export default function MetaInfo({ data }) {
         >
             <CardMedia
                 sx={{
-                    flex: 1,
+                    flex: { xs: '1 0 auto', sm: '0 0 50%' },
                     display: 'flex',
                     alignItems: 'stretch',
-                    p: 2
+                    p: 1,
                 }}>
                 <VideoCard videoUrl={data.videoUrl} />
             </CardMedia>
             <Box
                 sx={{
+                    flex: { xs: '1 0 auto', sm: '0 0 50%' },
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'space-between',
