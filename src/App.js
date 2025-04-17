@@ -12,6 +12,7 @@ import HeroPage from './pages/HeroPage';
 import ProjectPage from './pages/ProjectPage';
 // import JobPage from './pages/JobPage';
 import PageSelection from './pages/PageSelection';
+import About from './pages/AboutPage';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/:role/:ProjectIndex" element={<PageSelection metadata={metadata}/>} />
           {/* <Route path="/:role/:JobName" element={<JobPage metadata={metadata}/>} /> */}
           <Route path="/:role/:ProjectIndex/:SubProjectIndex" element={<ProjectPage metadata={metadata}/>} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
 

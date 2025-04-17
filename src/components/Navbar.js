@@ -41,7 +41,7 @@ const Navbar = (metadata) => {
           </Button>
 
           {projectType}
-          <Button color="inherit">about </Button>
+          <Button color="inherit" component={Link} to="/about">about </Button>
         </Toolbar>
       </AppBar>
     </Box>
