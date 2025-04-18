@@ -23,6 +23,8 @@ const theme = createTheme({
         primary: {
             secondary: SandyBrown,
             main: DarkSienna,
+            light: OrangePeel,
+            dark: DarkSienna
         },
     },
 
