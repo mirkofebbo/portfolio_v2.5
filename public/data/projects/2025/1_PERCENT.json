@@ -1,0 +1,45 @@
+{
+  "title": "The 1%",
+  "date": "028/07/2025",
+  "status": "Completed",
+  "type": "ART",
+  "keywords": [
+    "mechanical_engineering"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_all.jpg",
+  "oneLiner": "There’s class warfare, all right, but it’s my class, the rich class, that’s making war, and we’re winning ― Warren Buffett",
+  "videoUrl": "https://youtu.be/3aYjLZrcQzk?si=5B-x5IdZXuDbN2mO",
+  "description": "",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_all.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_front_1.JPG",
+    "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_front_2.JPG",
+    "ttps://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_front_2.JPG"
+  ],
+  "section": [
+    {
+      "subtitle": "Overview",
+      "text": "1 diamond VS 99 nails",
+      "media": "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_all.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Concept",
+      "text": "The 1% is a physical representation of the concept of class warfare mentioned by Warren Buffett. The piece aims to shine light how this fight would feel from the perspective of the 99%. Almost in reach but event if the nails could hit it, the impact would do no damage.\n\n1 diamond vs 99 nails",
+      "media": "https://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_front_1.JPG",
+      "url": ""
+    },
+    {
+      "subtitle": "Technical Implementation",
+      "text": "The installation consists of a single dc motor that gives the nails the short opportunity for a 1 on 1 with the diamond.\n\n1 diamond vs 99 nails",
+      "media": "ttps://mirkoPortfolio.b-cdn.net/2025/1_PERCENT/1_percent_front_2.JPG",
+      "url": ""
+    },
+    {
+      "subtitle": "Future Development",
+      "text": "Find a better way to support the diamond, switch the 3D printed PVC chain to metal and finaly update the nail 'plug', that create the tension to the string, to metal.",
+      "media": "",
+      "url": ""
+    }
+  ]
+}
