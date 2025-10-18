@@ -4,11 +4,20 @@
         "type": "default",
         "list": [
             "2021/TRANSPARENCY.json",
-            "2022/MECHANICUS.json",
-            "2019/MAXIMILIEN_ROBESPIERRE.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json",
             "2023/NESTA_STRATEGY_ROOM.json",
             "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json"
+        ]
+    },
+    "art": {
+        "hidden": false,
+        "type": "default",
+        "list": [
+            "2022/MECHANICUS.json",
+            "2025/1_PERCENT.json",
+            "2024/ELEGIES_FOR_OIL_SPILLS.json",
+            "2023/ECONOMIC_CORROSION_V1.json",
+            "2019/MAXIMILIEN_ROBESPIERRE.json"
         ]
     },
     "job": {
