@@ -5,7 +5,7 @@ import ProjectPage from "./ProjectPage";
 const PageSelection = ({ metadata }) => {
 
     const { role } = useParams();
-    if (role === "job") return <JobPage metadata={metadata} />;
+    if (role === "work") return <JobPage metadata={metadata} />;
     else return <ProjectPage metadata={metadata} />;
 
 }

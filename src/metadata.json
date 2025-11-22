@@ -20,20 +20,20 @@
             "2019/MAXIMILIEN_ROBESPIERRE.json"
         ]
     },
-    "job": {
+    "work": {
         "hidden": false,
         "type": "roles",
         "list": [
             {
                 "title": "Goldsmiths",
-                "url": "job/Goldsmiths.json",
+                "url": "work/Goldsmiths.json",
                 "list": [
 
                 ]
             },
             {
                 "title": "Fast Familiar",
-                "url": "job/FastFamiliar.json",
+                "url": "work/FastFamiliar.json",
                 "list": [
                     "2023/NESTA_STRATEGY_ROOM.json",
                     "2023/FAST_FAMILIAR_FIRST_DAY.json",
@@ -43,7 +43,7 @@
             },
             {
                 "title": "Neurolive",
-                "url": "job/neurolive.json",
+                "url": "work/neurolive.json",
                 "list": [
                     "",
                     "2022/NEUROLIVE_HSWBA.json",
@@ -54,7 +54,7 @@
 
             {
                 "title": "Kinda",
-                "url": "job/kinda.json",
+                "url": "work/kinda.json",
                 "list": [
                     "2023/KINDA_SWELL.json",
                     "2023/KINDA_SENSATE.json",
@@ -64,7 +64,7 @@
             },
             {
                 "title": "UAL",
-                "url": "job/UAL.json",
+                "url": "work/UAL.json",
                 "list": [
                     "",
                     "",

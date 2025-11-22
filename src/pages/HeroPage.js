@@ -40,7 +40,7 @@ const HeroPage = ({ metadata }) => {
     // generate project list
     const projectList = projectDataList.map((project, index) => {
 
-        if (role === "job") {
+        if (role === "work") {
             return < JobCard key={index} data={project} projectPageUrl={`/${role}/${index}`} />;
         } else {
             return (

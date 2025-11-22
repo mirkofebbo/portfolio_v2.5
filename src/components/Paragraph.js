@@ -34,7 +34,7 @@ export default function Paragraph({ sections }) {
             {sections.map((section, index) => (
                 <Box margin={2} key={index}>
                     {section.url ? (
-                        <CardActionArea component={Link} to={`/job/${ProjectIndex}/${index}`}>
+                        <CardActionArea component={Link} to={`/work/${ProjectIndex}/${index}`}>
                             {renderCard(section, index)}
                         </CardActionArea>
                     ) : (
