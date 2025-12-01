@@ -14,7 +14,7 @@ const Home = () => {
         </Typography>
 
         <Typography variant="body1" sx={{ fontSize: { xs: '0.98rem', md: '1.05rem' }, lineHeight: 1.7, maxWidth: '70ch', background: 'rgba(255,255,255,0.04)', p: 2, borderRadius: 1 }}>
-          I create systems, sculptures, and software that expose the invisible architectures of power — from financial networks to neural signals. Working with data visualisation, computational art, and machine interaction, I transform real-world information into responsive artworks. My practice moves fluidly between code and material, algorithm and embodiment, research and performance.
+          I create systems, sculptures, and software that expose the invisible architectures of power. From financial networks to neural signals. Working with data visualisation, computational art, and machine interaction. Transforming real-world information into responsive artworks. My practice moves fluidly between code and material, algorithm and embodiment, research and performance.
         </Typography>
       </Container>
     </Box>
