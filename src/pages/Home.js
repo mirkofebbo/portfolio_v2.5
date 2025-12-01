@@ -7,7 +7,7 @@ const Home = () => {
     <Box sx={{ minHeight: '64vh', display: 'flex', alignItems: 'center', justifyContent: 'center', py: 8 }}>
       <Container maxWidth="md" sx={{ color: 'common.white' }}>
         <Typography variant="h2" >
-          I make the invisible visible.
+          I do stuff.
         </Typography>
         <Typography variant="subtitle1" sx={{ mb: 3, opacity: 0.9 }}>
           Sculptures, systems and software that expose the architectures of power.
