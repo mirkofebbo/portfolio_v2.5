@@ -1,0 +1,58 @@
+{
+  "title": "ELEGIES_FOR_OIL_SPILLS",
+  "date": "01/11/2024",
+  "status": "Completed",
+  "type": "ART + RESEARCH",
+  "keywords": [
+    "AI",
+    "data_visualisation",
+    "environmental_art",
+    "creative_computation",
+    "installation",
+    "collaboration"
+  ],
+  "heroImage": "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_8.jpg",
+  "oneLiner": "A poetic machine that mourns the climate through AI-generated elegies and Brutalist images of oil spills.",
+  "videoUrl": "https://youtu.be/muMQzBHYNMs?si=bGarn7N9gtS3G634",
+  "description": "‘Elegies for Oil Spills’ is an artistic collaboration between Mirko Febbo and Anne Lee Steele that explores the intersections of extraction, datafication, and mourning. Using AI and environmental data, the work generates speculative artefacts—AI-written poems and images—based on the world’s largest oil spills. Printed on recycled thermal receipts and presented in a black box, the piece reflects on the possibility of machines expressing grief for environmental loss.",
+  "mediaGallery": [
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/test_3.MOV",
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_10.MOV",
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_11.MOV",
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_12.MOV",
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_2.jpg",
+    "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_3.MOV"
+  ],
+  "section": [
+    {
+      "subtitle": "Introduction",
+      "text": "‘Elegies for Oil Spills’ emerged from the question: how can we counter the embodied ethos of extraction that underlies both digital and physical life? Developed by Mirko Febbo and Anne Lee Steele as part of the series ‘Poetic Tactics to Counter Extraction’, the work was born from shared interests in making extractive processes and supply chains tangible through sensory and computational means.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_9.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Concept",
+      "text": "The piece explores whether machines can mourn for the climate. It asks: if an oil spill could speak, what would it say? And what can machine mimicry reveal about narratives of oil and environmental catastrophe? Each elegy is generated using ChatGPT and factual data scraped from news articles about oil spills. The text is then transformed into a Brutalist-style image, resulting in a dual artefact—poem and picture—printed as a receipt from a black box installation.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/prototype_2.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Exhibitions",
+      "text": "The installation debuted at EASST-4S 2024 in Amsterdam, where it received the ‘Making & Doing’ prize for applied STS work. It was later exhibited at the ‘Into the Flux’ exhibition at the International Body of Art in London (October 2024) and the School of Commons Annual Assembly in Zurich (February 2025). Each exhibition invited different readings—some focusing on aesthetics, others on the conceptual and ethical dimensions of machine mourning.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/amsterdam_2.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Related Work: trace",
+      "text": "Alongside ‘Elegies for Oil Spills’, the duo presented ‘trace’ at Mozilla Festival 2024 in Amsterdam. This interactive installation allowed participants to touch a physical globe, triggering sonic responses that mapped the routes of technological supply chains. Both projects form part of the ongoing research series ‘Poetic Tactics to Counter Extraction (and other ways to train attention)’.",
+      "media": "https://www.aleesteele.com/images/trace-mozfest.jpg",
+      "url": ""
+    },
+    {
+      "subtitle": "Context and Reflection",
+      "text": "Developed during Anne Lee Steele’s Artistic Research Fellowship at the School of Commons, Zurich University of the Arts, the collaboration combined ethnographic and sculptural methods with creative computation. The work invites viewers to consider how AI and art can transform abstract environmental data into poetic, affective experiences—asking not only how machines interpret human grief, but how humans interpret machine empathy.",
+      "media": "https://mirkoPortfolio.b-cdn.net/2024/ELEGIES_FOR_OIL_SPILLS/zurich_9.jpg",
+      "url": ""
+    }
+  ]
+}

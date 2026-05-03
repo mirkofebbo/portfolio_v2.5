@@ -1,0 +1,70 @@
+{
+    "title": "Brain Mapping",
+    "date": "2021",
+    "status": "Completed",
+    "type": "PROJECT",
+    "keywords": [
+        "research",
+        "data_visualisation",
+        "eeg",
+        "slime_mould",
+        "consciousness",
+        "python",
+        "r",
+        "gpu"
+    ],
+    "heroImage": "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_4.jpg",
+    "oneLiner": "An artistic data visualization project exploring theories of consciousness by mapping EEG brain states using slime mould algorithms.",
+    "videoUrl": "https://youtu.be/1ISunkFg5BU?si=U_93pNb1tkcF_FUK",
+    "projectUrl": "https://mirkofebbo.wixsite.com/mirkofebboportfolio/conscience",
+    "client": "Biosignal Interaction and Personhood Technology Lab, McGill University",
+    "description": "Created in collaboration with Charlotte Maschke, this project engages theories of consciousness and attempts to visualize complex temporal-spatial brain states from EEG data. The video won the Organization for Human Brain Mapping (OHBM) BrainArt Animation Award in 2021 and was exhibited in the Visual Science of Art Conference (VSAC) 2024.",
+    "mediaGallery": [
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/OHBM_BRAINART_WINNER.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_1.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_10.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_11.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_12.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_3.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_4.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_5.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_6.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_7.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_8.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Anesthesia_9.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_1.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_2.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_3.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_4.1.png",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_5%20copy.png",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_7%20copy.png",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/Baseline_9.png",
+        "https://mirkoPortfolio.b-cdn.net/2021/NEURO_CRYSTAL/IMG_5963.jpg"
+    ],
+    "section": [
+        {
+            "subtitle": "The Search for Neural Correlates of Consciousness",
+            "text": "The project addresses the challenge of identifying consciousness in physically unresponsive patients. By utilizing AI to reduce the dimensionality of EEG data, the project generates artistic visualizations of spatio-temporal activity patterns in the human brain, comparing baseline healthy states with induced unconscious states under anesthesia.",
+            "media": "",
+            "url": ""
+        },
+        {
+            "subtitle": "Slime Mould Simulation",
+            "text": "Moving away from conventional data visualization, the project utilizes a stigmergy model inspired by the unicellular slime mould (Physarum Polycephalum). The simulation visually interprets the functional connectivity between different brain areas, mapping the complex temporal brain activity similarly to how the organism networks and searches for nutrients.",
+            "media": "",
+            "url": ""
+        },
+        {
+            "subtitle": "3D Heatmap and Physical Artifact",
+            "text": "The second part of the project translates the data into a 3D voxel animation, creating a generative heatmap of the connection forces over time. This exploration ultimately resulted in physical data sculptures, permanently capturing the ephemeral brain activity by engraving the resulting 3D heatmap into a 10 x 10 x 15 cm crystal block.",
+            "media": "",
+            "url": ""
+        },
+        {
+            "subtitle": "Technical Implementation",
+            "text": "Data gathered from a 104-electrode EEG is cleaned and organized using Python and R. The simulation processes the data to control particle behaviors. Future improvements aim to transition the simulation from CPU to GPU using shaders, enabling the real-time visualization of up to 10 million particles without frame drops.",
+            "media": "",
+            "url": ""
+        }
+    ]
+}

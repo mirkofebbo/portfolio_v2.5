@@ -1,0 +1,48 @@
+{
+    "title": "SENSATE",
+    "date": "",
+    "status": "",
+    "type": "",
+    "keywords": [
+        "neuroscience",
+        "wellbeing",
+        "technology",
+        "sound",
+        "neuroaesthetics",
+        "EEG"
+    ],
+    "heroImage": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_1.jpg",
+    "oneLiner": "The intersection of science, technology and sound has given rise to new and groundbreaking ways to care for our health. As more individuals today understand the need for self-care, technological innovation opens new possibilities of the ways to do so.",
+    "videoUrl": "https://vimeo.com/873744124",
+    "projectUrl": "https://www.kindastudios.com/sensate",
+    "client": "Sensate",
+    "description": "",
+    "mediaGallery": [
+        "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_1.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_2.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_3.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_4.jpg",
+        "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_5.jpg"
+    ],
+    "url": "https://248c5302-73bc-41fe-a1b1-6a2a29c1bda5.usrfiles.com/ugd/248c53_e11d6edd57b14b2e8be1f7563579f437.pdf",
+    "section": [
+        {
+            "subtitle": "Project Overview",
+            "text": "Sensate developed a pebble-shaped device that delivers infrasonic resonance when paired with custom soundscapes, aiming to promote deep relaxation through vagal toning and bone conduction. The objective was to validate the combined effect of the device's sound and vibration features on user wellbeing.",
+            "media":  "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_1.jpg",
+            "url": ""
+        },
+        {
+            "subtitle": "Research Methodology",
+            "text": "The study was conducted in two phases. Phase one involved measuring EEG and heart rate data during a single 10-minute Sensate session to observe immediate brain-body responses. Phase two had participants integrate Sensate into their daily routines for three weeks, with groups using the device with soundscapes, soundscapes only, or a control rest condition.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_2.jpg",
+            "url": ""
+        },
+        {
+            "subtitle": "Key Findings",
+            "text": "EEG analysis revealed that using Sensate induced whole-brain synchronization, a state associated with deep meditation. Over the three-week period, participants developed a daily ritual that supported stress reduction and mood improvement, with the Sensate soundscapes proving particularly effective.",
+            "media": "https://mirkoPortfolio.b-cdn.net/2023/KINDA_SENSATE/kinda_sensate_2.jpg",
+            "url": ""
+        }
+    ]
+}
