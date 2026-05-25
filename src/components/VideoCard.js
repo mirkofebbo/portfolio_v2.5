@@ -2,11 +2,11 @@ import { Box } from "@mui/material";
 
 export default function VideoCard({ videoUrl }) {
     if (!videoUrl) return <>Invalid video URL</>;
-
+    console.log("Video URL:", videoUrl);
     // Extract video ID from the YouTube URL
     const getYouTubeEmbedUrl = (url) => {
         const match = url.match(
-            /(?:youtube\.com\/.*[?&]v=|youtu\.be\/)([^"&?/\\s]{11})/
+            /(?:youtube\.com\/.*[?&]v=|youtu\.be\/)([^"&?/\s]{11})/
         );
         return match ? `https://www.youtube.com/embed/${match[1]}` : null;
     };
