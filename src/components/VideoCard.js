@@ -25,6 +25,10 @@ export default function VideoCard({ videoUrl }) {
         return /vimeo\.com/.test(url);
     };
 
+    const isDirectVideoUrl = (url) => {
+        return /\.(mp4|mov|webm)(\?.*)?$/i.test(url) || /b-cdn\.net/.test(url);
+    };
+
     const embedUrl = isYouTubeUrl(videoUrl)
         ? getYouTubeEmbedUrl(videoUrl)
         : isVimeoUrl(videoUrl)
@@ -33,6 +37,23 @@ export default function VideoCard({ videoUrl }) {
 
     if ((isYouTubeUrl(videoUrl) || isVimeoUrl(videoUrl)) && !embedUrl)
         return <>Invalid video link</>;
+
+    if (isDirectVideoUrl(videoUrl)) {
+        return (
+            <Box sx={{ height: "450px", width: "100%" }}>
+                <video
+                    width="100%"
+                    height="100%"
+                    controls
+                    src={videoUrl}
+                    title="Video player"
+                    style={{ objectFit: "cover" }}
+                >
+                    Your browser does not support the video tag.
+                </video>
+            </Box>
+        );
+    }
 
     return (
         <Box sx={{ height: "450px", width: "100%" }}>

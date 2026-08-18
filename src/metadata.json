@@ -6,7 +6,8 @@
             "2021/TRANSPARENCY.json",
             "2023/FAST_FAMILIAR_FIRST_DAY.json",
             "2023/NESTA_STRATEGY_ROOM.json",
-            "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json"
+            "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json",
+            "2026/OILD_2010-26.json"
         ]
     },
     "art": {
@@ -18,7 +19,8 @@
             "2024/ELEGIES_FOR_OIL_SPILLS.json",
             "2023/ECONOMIC_CORROSION_V1.json",
             "2021/BRAIN_MAP.json",
-            "2019/MAXIMILIEN_ROBESPIERRE.json"
+            "2019/MAXIMILIEN_ROBESPIERRE.json",
+            "2026/OILD_2010-26.json"
         ]
     },
     "work": {
@@ -28,9 +30,7 @@
             {
                 "title": "Goldsmiths",
                 "url": "work/Goldsmiths.json",
-                "list": [
-
-                ]
+                "list": []
             },
             {
                 "title": "Fast Familiar",
@@ -52,7 +52,6 @@
                     "2024/NEUROLIVE_READING_OF_WHAT_WAS_NEVER_WRITTEN.json"
                 ]
             },
-
             {
                 "title": "Kinda",
                 "url": "work/kinda.json",
@@ -72,7 +71,6 @@
                     ""
                 ]
             }
-
         ]
     },
     "archive": {
