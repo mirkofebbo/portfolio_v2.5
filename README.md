@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 No Test at the moment
-s
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
