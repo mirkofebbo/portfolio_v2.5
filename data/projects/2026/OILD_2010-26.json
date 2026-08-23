@@ -32,25 +32,30 @@
   "section": [
     {
       "subtitle": "Overview",
-      "text": "OILD_2010-26 is a generative artwork that visualizes the relationship between oil market dynamics and world conflict over a 16-year period (2010–2026)[cite: 1]. Rendered via pen plotter, the work highlights the structural impact of world conflict on financial market volatility[cite: 1].",
+      "text": "OILD_2010-26 is a generative artwork that visualizes the relationship between oil market dynamics and world conflict over a 16-year period (2010–2026). Rendered via pen plotter, the work highlights the structural impact of world conflict on financial market volatility.",
       "media": "https://mirkoPortfolio.b-cdn.net/2026/OILD_2010-26/front_2.jpg",
       "url": ""
     },
     {
       "subtitle": "Concept",
-      "text": "Using historical market data for crude oil assets (OILD) via the Alpaca API alongside a timeline of geopolitical crises, the project translates economic volatility into complex, radial structural diagrams[cite: 1]. The piece maps daily High/Low price boundaries as concentric, overlapping radial quads that expand outward based on price magnitude[cite: 1]. Moments of severe geopolitical disruption—such as sanctions, military conflicts, and supply chain blockades—are embedded directly onto the price geometry as annotated vector points[cite: 1].",
+      "text": "Using historical market data for crude oil assets (OILD) via the Alpaca API alongside a timeline of geopolitical crises, the project translates economic volatility into complex, radial structural diagrams. The piece maps daily High/Low price boundaries as concentric, overlapping radial quads that expand outward based on price magnitude. Moments of severe geopolitical disruption—such as sanctions, military conflicts, and supply chain blockades—are embedded directly onto the price geometry as annotated vector points.",
       "media": "https://mirkoPortfolio.b-cdn.net/2026/OILD_2010-26/front_3.jpg",
       "url": ""
     },
     {
       "subtitle": "Technical Implementation",
-      "text": "The generative engine is written in Rust using the Nannou framework[cite: 1]. Asynchronous streaming tasks utilizing tokio fetch multi-year historical daily bars, matching each bar with specific geopolitical event rows from a curated CSV timeline[cite: 1]. The system calculates radial quads for every trading day using polar coordinates, and exports clean SVGs where structural price bars are drawn as black polylines, with critical geopolitical event descriptions projecting radially in red[cite: 1].",
+      "text": "The generative engine is written in Rust using the Nannou framework. Asynchronous streaming tasks utilizing tokio fetch multi-year historical daily bars, matching each bar with specific geopolitical event rows from a curated CSV timeline. The system calculates radial quads for every trading day using polar coordinates, and exports clean SVGs where structural price bars are drawn as black polylines, with critical geopolitical event descriptions projecting radially in red.",
       "media": "https://mirkoPortfolio.b-cdn.net/2026/OILD_2010-26/framer_5.jpeg",
       "url": ""
     },
     {
       "subtitle": "Data Sources & Bibliography",
-      "text": "1. Alpaca Markets API: Historical Daily Stock Bars (OILD, 1D, 2010-2026)[cite: 1].\n2. Geopolitical Events Dataset: 'Global Oil Prices & Geopolitical Events 2010–2026' mapping daily prices against world events[cite: 1].\n3. Software Ecosystem: Rust, Nannou Creative Coding Framework, Tokio Async Runtime, and Serde (serde_json, csv)[cite: 1].",
+      "responsibilities": [
+        "1. Alpaca Markets API: Historical Daily Stock Bars (OILD, 1D, 2010-2026).",
+        "2. Geopolitical Events Dataset: 'Global Oil Prices & Geopolitical Events 2010–2026' mapping daily prices against world events.",
+        "3. Software Ecosystem: Rust, Nannou Creative Coding Framework, Tokio Async Runtime, and Serde (serde_json, csv)."
+    
+      ],
       "media": "https://mirkoPortfolio.b-cdn.net/2026/OILD_2010-26/framer_1.jpg",
       "url": ""
     }
