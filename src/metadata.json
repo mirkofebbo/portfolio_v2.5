@@ -14,13 +14,14 @@
         "hidden": false,
         "type": "default",
         "list": [
-            "2022/MECHANICUS.json",
+            "2026/OILD_2010-26.json",
             "2025/1_PERCENT.json",
             "2024/ELEGIES_FOR_OIL_SPILLS.json",
+            "2024/STRESS_TEST.json",
             "2023/ECONOMIC_CORROSION_V1.json",
+            "2022/MECHANICUS.json",
             "2021/BRAIN_MAP.json",
-            "2019/MAXIMILIEN_ROBESPIERRE.json",
-            "2026/OILD_2010-26.json"
+            "2019/MAXIMILIEN_ROBESPIERRE.json"
         ]
     },
     "work": {
